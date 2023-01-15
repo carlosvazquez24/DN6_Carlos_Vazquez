@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.ConsoleExample", "OOP.ConsoleExample\OOP.ConsoleExample.csproj", "{7EDDE4F4-3F4D-405C-88AB-524EF6C1CC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioManager", "AudioManager\AudioManager.csproj", "{98E3CC01-7E7C-457B-8E71-960576AB6105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EDDE4F4-3F4D-405C-88AB-524EF6C1CC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDDE4F4-3F4D-405C-88AB-524EF6C1CC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDDE4F4-3F4D-405C-88AB-524EF6C1CC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDDE4F4-3F4D-405C-88AB-524EF6C1CC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E3CC01-7E7C-457B-8E71-960576AB6105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E3CC01-7E7C-457B-8E71-960576AB6105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E3CC01-7E7C-457B-8E71-960576AB6105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E3CC01-7E7C-457B-8E71-960576AB6105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C54490B-865E-4D7C-BFB8-09692E5F1A23}
+	EndGlobalSection
+EndGlobal
