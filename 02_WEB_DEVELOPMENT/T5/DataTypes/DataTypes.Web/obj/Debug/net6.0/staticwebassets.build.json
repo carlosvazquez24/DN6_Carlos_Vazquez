@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "YwPUo4Zx3cKDdkn3zj++9MxYAZK03mMHLjm4eQsE9kI=",
+  "Source": "DataTypes.Web",
+  "BasePath": "_content/DataTypes.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DataTypes.Web\\wwwroot",
+      "Source": "DataTypes.Web",
+      "ContentRoot": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\T5\\DataTypes\\DataTypes.Web\\wwwroot\\",
+      "BasePath": "_content/DataTypes.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\T5\\DataTypes\\DataTypes.Web\\wwwroot\\dataTypes.js",
+      "SourceId": "DataTypes.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\T5\\DataTypes\\DataTypes.Web\\wwwroot\\",
+      "BasePath": "_content/DataTypes.Web",
+      "RelativePath": "dataTypes.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dataTypes.js"
+    }
+  ]
+}

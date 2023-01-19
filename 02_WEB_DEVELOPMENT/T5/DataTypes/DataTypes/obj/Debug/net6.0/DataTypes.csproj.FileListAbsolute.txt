@@ -1,0 +1,15 @@
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\bin\Debug\net6.0\DataTypes.exe
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\bin\Debug\net6.0\DataTypes.deps.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\bin\Debug\net6.0\DataTypes.runtimeconfig.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\bin\Debug\net6.0\DataTypes.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\bin\Debug\net6.0\DataTypes.pdb
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.csproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.AssemblyInfoInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.AssemblyInfo.cs
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\refint\DataTypes.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.pdb
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\DataTypes.genruntimeconfig.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\02_WEB_DEVELOPMENT\T4\DataTypes\DataTypes\obj\Debug\net6.0\ref\DataTypes.dll
