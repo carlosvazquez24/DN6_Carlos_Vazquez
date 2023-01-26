@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\E3\\DataTypes\\DataTypes.Web\\wwwroot\\Customer.js",
+      "PackagePath": "staticwebassets\\Customer.js"
+    },
+    {
       "Id": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\E3\\DataTypes\\DataTypes.Web\\wwwroot\\dataTypes.js",
       "PackagePath": "staticwebassets\\dataTypes.js"
     },

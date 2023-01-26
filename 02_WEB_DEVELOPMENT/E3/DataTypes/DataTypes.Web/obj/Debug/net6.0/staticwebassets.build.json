@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9fPv/VBPCNLnNEK+cJjKxcjhIrdX4UqrnZkRkveLAQ0=",
+  "Hash": "bDKcjKUW2M9J+5T8UBRTCQt3KSAWPe4Pydisn/ZUP+U=",
   "Source": "DataTypes.Web",
   "BasePath": "_content/DataTypes.Web",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\E3\\DataTypes\\DataTypes.Web\\wwwroot\\Customer.js",
+      "SourceId": "DataTypes.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\E3\\DataTypes\\DataTypes.Web\\wwwroot\\",
+      "BasePath": "_content/DataTypes.Web",
+      "RelativePath": "Customer.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Customer.js"
+    },
     {
       "Identity": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\02_WEB_DEVELOPMENT\\E3\\DataTypes\\DataTypes.Web\\wwwroot\\dataTypes.js",
       "SourceId": "DataTypes.Web",

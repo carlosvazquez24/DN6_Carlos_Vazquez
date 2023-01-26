@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+    <head>
+        <title>
+            Bucle For
+        </title>
+
+
+        <style>
+            div{
+                width: 100px;
+                display: inline-block;
+                margin: 10px;
+            }
+
+            .negrita{
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            Lista de ejemplo clase Customer
+        </h1>
+
+        <ul id="lista" class="listaMiembros" >
+            <li>
+                <div class="negrita" >
+                    Nombre
+                </div>
+                <div class="negrita" >
+                    Apellido
+                </div>
+                <div class="negrita">
+                    Fecha de ingreso
+                </div>
+                <div class="negrita">
+                    Tipo de mensualidad
+                </div>
+            </li>
+        </ul>
+
+        <script src="~/lib/moment.js"></script>
+        <script src="~/Customer.js" ></script>
+
+    </body>
+</html>
