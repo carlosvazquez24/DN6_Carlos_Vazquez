@@ -80,11 +80,6 @@
             padding: 60px 15px 0;
         }
 
-        .nombre{
-            margin-left: 20px;
-            margin-right: 20px;
-            font-size: 18px;
-        }
 
     </style>
 
@@ -106,7 +101,7 @@
 
                     @await  Component.InvokeAsync(typeof(AppMenuViewComponent), new { CurrentPageName = ViewBag.CurrentPageName} )
 
-                    <span class="nombre"> Carlos Vázquez </span>
+                    
                     @RenderSection("HeaderRight", false)
                 </div>
             </div>
