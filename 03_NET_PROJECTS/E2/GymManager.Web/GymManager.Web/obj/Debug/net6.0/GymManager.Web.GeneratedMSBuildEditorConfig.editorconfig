@@ -28,16 +28,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/Membership/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxDcmVhdGUuY3NodG1s
+[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/MembershipTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFR5cGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/Membership/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxFZGl0LmNzaHRtbA==
+[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/MembershipTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFR5cGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/Membership/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxJbmRleC5jc2h0bWw=
+[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/MembershipTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFR5cGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/Members/Create.cshtml]
@@ -72,8 +72,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/Shared/_MembershipList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJzaGlwTGlzdC5jc2h0bWw=
+[C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/Shared/_MembershipTypeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJzaGlwVHlwZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/carlo/OneDrive/Escritorio/DN6_Carlos_Vazquez/03_NET_PROJECTS/E2/GymManager.Web/GymManager.Web/Views/_ViewImports.cshtml]

@@ -1,5 +1,5 @@
 using GymManager.ApplicationServices.Members;
-using GymManager.ApplicationServices.Memberships;
+using GymManager.ApplicationServices.MembershipsTypes;
 using GymManager.ApplicationServices.Navigation;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddTransient<IMembersAppServices, MembersAppServices>();
 builder.Services.AddTransient<IMenuAppService, MenuAppService>();
-builder.Services.AddTransient<IMembershipAppService, MembershipAppService>();
+builder.Services.AddTransient<IMembershipTypeAppService, MembershipTypeAppService>();
 
 
 var app = builder.Build();
