@@ -13,5 +13,7 @@ app.UseStaticFiles();
 //app.MapGet("/File1", () => DateTime.Now.ToString());
 
 app.MapControllerRoute( "default",  "{controller=home}/{action=Index}/{id?}");
+app.MapControllerRoute("default", "{controller=Attendance}/{action=MemberIn}/{id?}");
+
 
 app.Run();
