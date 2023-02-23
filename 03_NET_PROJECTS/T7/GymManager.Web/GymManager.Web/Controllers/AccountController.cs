@@ -31,7 +31,7 @@ namespace GymManager.Web.Controlers
                     UserName = "carlosEliam@gmail.com"
 
 
-                }, "tacos123*").Result;
+                }, "Tacos123*").Result;
             }
 
 
