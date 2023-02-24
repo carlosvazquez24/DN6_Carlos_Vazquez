@@ -21,10 +21,13 @@ namespace GymManager.Web.Controllers
         }
         public IActionResult Index()
         {
-            _logger.LogInformation("Now you are in the Members Index");
+            _logger.LogInformation("-----------------------------------------------------------");
+            _logger.LogInformation("***********  Now you are in the Members Index   ***********");
+            _logger.LogInformation("-----------------------------------------------------------");
+
             List<Member> members = _membersAppServices.GetMembers();
             MemberListViewModel viewModel = new MemberListViewModel();
-            viewModel.Members = members;
+            viewModel.Members = members; 
             viewModel.NewMembersCount = 3;
             return View(viewModel);
         }
