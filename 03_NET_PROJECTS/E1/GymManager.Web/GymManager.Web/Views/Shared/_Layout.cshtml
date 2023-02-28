@@ -101,7 +101,8 @@
 
                     @await  Component.InvokeAsync(typeof(AppMenuViewComponent), new { CurrentPageName = ViewBag.CurrentPageName} )
 
-                    
+                    @await Html.PartialAsync("~/Views/Shared/_Username_Partial_View.cshtml")
+
                     @RenderSection("HeaderRight", false)
                 </div>
             </div>
