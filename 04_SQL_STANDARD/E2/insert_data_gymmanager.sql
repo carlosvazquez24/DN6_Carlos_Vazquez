@@ -14,11 +14,11 @@ insert into equipmenttype (id_EquipmentType,name) values (5,"treadmill");
 
 
 
-insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (1,"Carlos", "Vázquez", "2001-10-24 18:00:00", "carlos@gmail.com","M", 98399977,4);
-insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (2,"José", "José", "1994-02-04 14:30:00", "tacos123@gmail.com","M", 98399333,4); 
-insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (3,"Daniel", "Sosa", "2002-06-10 10:14:00", "daniel@hotmail.com","V", 55532521,1); 
-insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (4,"Juan", "Rodriguez", "1988-06-29 19:00:00", "juan@outlook.com","M", 99834521,5); 
-insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (5,"María", "Velazquez", "2004-12-30 02:00:00", "cvlaz@yahoo.com","V", 999236759,3);  
+insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (1,"Carlos", "Vázquez", "2001-10-24", "carlos@gmail.com","M", "98399977",4);
+insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (2,"José", "José", "1994-02-04", "tacos123@gmail.com","M", "98399333",4); 
+insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (3,"Daniel", "Sosa", "2002-06-10", "daniel@hotmail.com","V", "55532521",1); 
+insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (4,"Juan", "Rodriguez", "1988-06-29", "juan@outlook.com","M", "99834521",5); 
+insert into users (id_User, first_name,last_name,birthday,email,shift,phone_number,id_City) values (5,"María", "Velazquez", "2004-12-30", "cvlaz@yahoo.com","V", "999236759",3);  
 
 insert into roles (id_Role, name, salary) values (1,"manager",13000);
 insert into roles (id_Role, name, salary) values (2,"coach",8000);
@@ -40,11 +40,13 @@ insert into membershiptypes (id_Membership_Type, name, cost, created_on, duratio
 insert into membershiptypes (id_Membership_Type, name, cost, created_on, duration) values (4, "Super premium plus max", 1600, "2022-04-03 22:30:00", 12);
 insert into membershiptypes (id_Membership_Type, name, cost, created_on, duration) values (5, "Trial", 100, "2022-08-01 12:15:00", 1);
 
-insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (1,"Juan", "Perez","chano@hotmail.com", "1998-06-23 14:00:00", "2023-02-05 14:00:00",1,1, "2023-01-20 15:00:00");
-insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (2,"Reyna", "Rodriguez","rmrr@hotmail.com", "2001-12-23 14:00:00", "2023-02-10 14:00:00",4,1, "2023-01-28 19:00:00");
-insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (3,"Adrian", "Torres","adri123@gmail.com", "1998-06-23 14:00:00", "2023-02-15 14:00:00",3,5, "2023-02-20 15:00:00");
-insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (4,"Itzel", "Hernández","chano@hotmail.com", "2005-02-23 15:00:00", "2023-02-05 14:00:00",2,4, "2023-02-24 18:00:00");
-insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (5,"Blanca", "Luna","chano@hotmail.com", "1988-06-07 18:00:00", "2023-02-22 14:00:00",2,4, "2023-02-24 19:00:00");
+insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (1,"Juan", "Perez","chano@hotmail.com", "1998-06-23", "2023-02-05 14:00:00",1,1, "2023-01-20 15:00:00");
+insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (2,"Reyna", "Rodriguez","rmrr@hotmail.com", "2001-12-23", "2023-02-10 14:00:00",4,1, "2023-01-28 19:00:00");
+insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (3,"Adrian", "Torres","adri123@gmail.com", "1998-06-23", "2023-02-15 14:00:00",3,5, "2023-02-20 15:00:00");
+insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (4,"Itzel", "Hernández","chano@hotmail.com", "2005-02-23", "2023-02-05 14:00:00",2,4, "2023-02-24 18:00:00");
+insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (5,"Blanca", "Luna","chano@hotmail.com", "1988-06-07", "2023-02-22 14:00:00",2,4, "2023-02-24 19:00:00");
+insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (6,"Jimena", "Lopez","ram@gmail.com", "1989-06-07", "2023-02-28 14:00:00",2,2, "2023-02-28 19:00:00");
+insert into members (id_Member,fisrt_name, last_name, email, birthday, last_payment, id_City, id_Membership_Type, created_on) values (7,"Johana", "Ramos","ujys@sys.com", "1987-01-03", "2023-03-01 14:00:00",2,2, "2023-03-01 20:00:00");
 
 
 insert into measuretype (id_Measure_Type, measure) values (1,"liters");
@@ -66,16 +68,11 @@ insert into inventory (id_Inventory, existence, id_ProductType) values (3,7,3);
 insert into inventory (id_Inventory, existence, id_ProductType) values (4,2,4);
 insert into inventory (id_Inventory, existence, id_ProductType) values (5,20,5);
 
-insert into sales (id_Sale, date, total) values (1,"2023-02-21 14:00:00", 3000);
-insert into sales (id_Sale, date, total) values (2,"2023-02-22 14:00:00", 1000);
-insert into sales (id_Sale, date, total) values (3,"2023-02-23 15:00:00", 2400);
-insert into sales (id_Sale, date, total) values (4,"2023-02-23 16:00:00", 2500);
-insert into sales (id_Sale, date, total) values (5,"2023-02-23 17:00:00", 800);
+insert into sales (id_Sale, date,  id_ProductType, id_User) values (1,"2023-02-21 14:00:00", 1,1);
+insert into sales (id_Sale, date, id_ProductType, id_User) values (2,"2023-02-22 14:00:00", 1,1);
+insert into sales (id_Sale, date, id_ProductType, id_User) values (3,"2023-02-23 15:00:00", 2,1);
+insert into sales (id_Sale, date, id_ProductType, id_User) values (4,"2023-02-23 16:00:00", 2,3);
+insert into sales (id_Sale, date, id_ProductType, id_User) values (5,"2023-02-23 17:00:00", 3,2);
+insert into sales (id_Sale, date, id_ProductType, id_User) values (6,"2023-02-23 17:00:00", 2,2);
 
-insert into salesdetails ( id_SalesDetails, id_Sale, id_ProductType,amount,subtotal) values (1,1,1,1,2000);
-insert into salesdetails ( id_SalesDetails, id_Sale, id_ProductType,amount,subtotal) values (2,1,2,1,1000);
-insert into salesdetails ( id_SalesDetails, id_Sale, id_ProductType,amount,subtotal) values (3,2,2,1,1000);
-insert into salesdetails ( id_SalesDetails, id_Sale, id_ProductType,amount,subtotal) values (4,3,3,3,2400);
-insert into salesdetails ( id_SalesDetails, id_Sale, id_ProductType,amount,subtotal) values (5,4,1,1,2000);
-insert into salesdetails ( id_SalesDetails, id_Sale, id_ProductType,amount,subtotal) values (6,4,5,1,500);
-insert into salesdetails ( id_SalesDetails, id_Sale, id_ProductType,amount,subtotal) values (7,5,5,1,800);
+

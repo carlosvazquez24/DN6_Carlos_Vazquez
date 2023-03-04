@@ -1,10 +1,15 @@
-SELECT "Best selling product" query_Type, producttypes.id_ProductType, name, amount from salesdetails
-inner join producttypes
-where salesdetails.id_ProductType = producttypes.id_ProductType and salesdetails.amount =
+select "Best selling product" description, producttypes.id_ProductType, name from
+producttypes
+inner join
 (
-SELECT max(Amount) from
-(
-SELECT sum(amount) as Amount from salesdetails
-group by id_ProductType
-) subTable
-) 
+	SELECT Count(*) as Amount, id_ProductType from sales
+	group by id_ProductType
+	having Amount = 
+	(
+		select max(Amount) as max from
+		(
+			SELECT Count(*) as Amount, id_ProductType from sales
+			group by id_ProductType
+		) subTable
+	) 
+) finalTable where producttypes.id_ProductType = finalTable.id_ProductType;
