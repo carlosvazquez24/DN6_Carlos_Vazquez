@@ -1,5 +1,5 @@
 USE `sqltesting`;
-DROP procedure IF EXISTS `getAllUsers`;
+DROP procedure IF EXISTS `GetAllUsers`;
 
 DELIMITER $$
 USE `sqltesting`$$
