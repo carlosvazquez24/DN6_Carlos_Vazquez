@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Bbf+Bxuz6gN5nkLyQqhwQKKHW0bOiOkvNnuD+VPusv7ANPV7jS9yQNVOl0UXMRK0GgIVYAUEy5PN7SFf2bv2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T5\\DataAccess.Example\\DataAccess.Example\\DataAccess.Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}

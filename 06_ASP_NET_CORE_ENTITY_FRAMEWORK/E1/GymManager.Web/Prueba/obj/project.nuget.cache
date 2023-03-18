@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3jV8r8rnZpGcE02GtlmPh9iqgYSmkmIR5+1SMeXsT06eL/6bY2d2UQfRakrAJF0wd2D0VoR/P5zlUvHw6DEpLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E1\\GymManager.Web\\Prueba\\Prueba.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}
