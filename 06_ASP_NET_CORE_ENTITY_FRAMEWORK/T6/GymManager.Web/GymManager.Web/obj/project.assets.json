@@ -1369,7 +1369,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "GymManager.Core": "1.0.0"
+          "GymManager.Core": "1.0.0",
+          "GymManager.DataAccess": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GymManager.ApplicationServices.dll": {}
@@ -1395,6 +1396,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "GymManager.Core": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
         },

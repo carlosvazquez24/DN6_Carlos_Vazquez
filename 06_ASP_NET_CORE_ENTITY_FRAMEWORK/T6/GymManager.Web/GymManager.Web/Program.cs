@@ -1,7 +1,9 @@
 using GymManager.ApplicationServices.Members;
 using GymManager.ApplicationServices.MembershipsTypes;
 using GymManager.ApplicationServices.Navigation;
+using GymManager.Core.Member;
 using GymManager.DataAccess;
+using GymManager.DataAccess.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -16,6 +18,8 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddTransient<IMembersAppServices, MembersAppServices>();
 builder.Services.AddTransient<IMenuAppService, MenuAppService>();
 builder.Services.AddTransient<IMembershipTypeAppService, MembershipTypeAppService>();
+builder.Services.AddTransient<IRepository<int, Member>, MembersRepository>();
+
 
 string connectionString = builder.Configuration.GetConnectionString("Default");
 

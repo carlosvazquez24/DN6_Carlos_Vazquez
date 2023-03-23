@@ -1,0 +1,55 @@
+2023-03-23 11:18:09.082 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-23 11:18:59.277 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-23 11:21:32.289 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-23 11:21:33.744 -05:00  INF  Executed DbCommand (909ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='gymmanager' AND TABLE_NAME='__EFMigrationsHistory'; 
+ 2023-03-23 11:21:34.100 -05:00  INF  Executed DbCommand (233ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='gymmanager' AND TABLE_NAME='__EFMigrationsHistory'; 
+ 2023-03-23 11:21:34.200 -05:00  INF  Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`; 
+ 2023-03-23 11:21:34.229 -05:00  INF  Applying migration '20230323161809_M1'. 
+ 2023-03-23 11:21:34.511 -05:00  INF  Executed DbCommand (165ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20230323161809_M1', '6.0.14'); 
+ 2023-03-23 11:21:34.614 -05:00  INF  Applying migration '20230323161859_M2'. 
+ 2023-03-23 11:21:36.315 -05:00  INF  Executed DbCommand (1,623ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `EquipmentTypes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(45) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK_EquipmentTypes` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4; 
+ 2023-03-23 11:21:36.610 -05:00  INF  Executed DbCommand (294ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `MeasureTypes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Measure` varchar(45) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK_MeasureTypes` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4; 
+ 2023-03-23 11:21:36.992 -05:00  INF  Executed DbCommand (381ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `ProductTypes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(45) CHARACTER SET utf8mb4 NOT NULL,
+    `Brand` varchar(45) CHARACTER SET utf8mb4 NOT NULL,
+    `Cost` decimal(65,30) NOT NULL,
+    `Price` decimal(65,30) NOT NULL,
+    `MeasureTypeId` int NOT NULL,
+    CONSTRAINT `PK_ProductTypes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_ProductTypes_MeasureTypes_MeasureTypeId` FOREIGN KEY (`MeasureTypeId`) REFERENCES `MeasureTypes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4; 
+ 2023-03-23 11:21:37.247 -05:00  INF  Executed DbCommand (254ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Inventories` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Existence` int NOT NULL,
+    `ProductTypeId` int NOT NULL,
+    CONSTRAINT `PK_Inventories` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Inventories_ProductTypes_ProductTypeId` FOREIGN KEY (`ProductTypeId`) REFERENCES `ProductTypes` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4; 
+ 2023-03-23 11:21:37.547 -05:00  INF  Executed DbCommand (299ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Inventories_ProductTypeId` ON `Inventories` (`ProductTypeId`); 
+ 2023-03-23 11:21:37.817 -05:00  INF  Executed DbCommand (270ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_ProductTypes_MeasureTypeId` ON `ProductTypes` (`MeasureTypeId`); 
+ 2023-03-23 11:21:37.855 -05:00  INF  Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20230323161859_M2', '6.0.14'); 
+ 

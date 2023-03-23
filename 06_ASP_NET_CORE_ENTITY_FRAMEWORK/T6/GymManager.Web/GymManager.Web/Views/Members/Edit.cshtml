@@ -1,7 +1,7 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@model GymManager.Core.Member.Member
+@model GymManager.Web.Models.MemberViewModel;
 
 @section Head {
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -61,9 +61,12 @@
         <div class="mb-3">
             <label asp-for="CityId" class="form-label">City </label>
             <select class="form-control" asp-for="CityId">
-                <option value="1"> ALABAMA </option>
-                <option value="2"> ALASKA  </option>
-                <option value="3"> ARIZONA  </option>
+                <option value="2"> ALABAMA </option>
+                <option value="3"> ALASKA  </option>
+                <option value="4"> ARIZONA  </option>
+                <option value="5"> ARKANSAS  </option>
+
+
             </select>
             <span asp-validation-for="Name" class="text-danger">  </span>
 

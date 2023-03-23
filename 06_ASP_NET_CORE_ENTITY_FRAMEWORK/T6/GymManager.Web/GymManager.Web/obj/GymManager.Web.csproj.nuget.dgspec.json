@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T6\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
                 "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T6\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
+              },
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T6\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T6\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj"
               }
             }
           }
@@ -162,7 +165,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T6\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T6\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

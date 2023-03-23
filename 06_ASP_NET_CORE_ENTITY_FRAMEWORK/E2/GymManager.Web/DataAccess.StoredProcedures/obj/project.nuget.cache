@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HSfQFqvTFG1+eeIud3Yd1VX8viMScD6voZqoJjN071RL+67YTBbEjVTV2jlGVCuaN/dfLrKtY6VxZAnmyNs9OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\DataAccess.StoredProcedures\\DataAccess.StoredProcedures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}

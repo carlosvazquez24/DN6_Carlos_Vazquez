@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GnVLsUk6AQzns0Mt4ZxWfMG/7w8/SO+SMi72YDlgZed+uVv/BDJLO/jI1E+8OeiWMsRUWvwwp3expVTSFOvHwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\T7\\GymManager.Web\\WebApi.StoredProcedures\\WebApi.StoredProcedures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carlo\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}
