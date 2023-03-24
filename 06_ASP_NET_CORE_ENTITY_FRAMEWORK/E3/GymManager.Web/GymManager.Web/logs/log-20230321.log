@@ -1,0 +1,1104 @@
+2023-03-21 13:27:30.750 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:27:39.158 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:27:39.158 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:27:39.162 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:27:39.162 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:27:39.162 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:30:31.764 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:30:32.384 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:30:32.384 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:30:32.387 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:30:32.387 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:30:32.387 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:30:37.673 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:30:38.599 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:30:38.640 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:30:39.221 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:30:45.875 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:30:47.604 -05:00  INF  Executed DbCommand (231ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:31:15.723 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:35:26.569 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:35:27.181 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:35:27.181 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:35:27.188 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:35:27.188 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:35:27.188 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:35:29.265 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:35:29.412 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:35:29.419 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:35:29.462 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:35:31.238 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:35:31.817 -05:00  INF  Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:35:38.284 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:35:41.310 -05:00  INF  Executed ViewResult - view Index executed in 9258.1208ms. 
+ 2023-03-21 13:35:41.358 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 11856.0733ms 
+ 2023-03-21 13:35:41.362 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:35:41.728 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 12471.8236ms 
+ 2023-03-21 13:35:42.499 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:35:42.499 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:35:42.607 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 106.6228ms 
+ 2023-03-21 13:35:43.597 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1097.1937ms 
+ 2023-03-21 13:35:43.787 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 13:35:43.824 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:35:43.826 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 38.9445ms 
+ 2023-03-21 13:35:45.209 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:35:46.646 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:35:46.647 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 1437.8364ms 
+ 2023-03-21 13:47:39.452 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:47:39.487 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:47:39.487 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:47:39.488 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:47:40.055 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:47:40.297 -05:00  INF  Executed DbCommand (156ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:47:40.299 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:47:40.317 -05:00  INF  Executed ViewResult - view Index executed in 17.6421ms. 
+ 2023-03-21 13:47:40.317 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 829.2628ms 
+ 2023-03-21 13:47:40.317 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:47:40.319 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 868.3866ms 
+ 2023-03-21 13:47:40.333 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:47:40.333 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:47:40.333 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 1.3562ms 
+ 2023-03-21 13:47:40.343 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.4401ms 
+ 2023-03-21 13:47:40.438 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:47:40.441 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:47:40.441 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 3.5497ms 
+ 2023-03-21 13:48:09.718 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:48:10.458 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:48:10.477 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:48:10.482 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:48:10.483 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:48:10.483 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:48:12.630 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:48:12.729 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:48:12.735 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:48:12.779 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:48:14.086 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:48:14.573 -05:00  INF  Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:48:21.137 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:48:23.647 -05:00  INF  Executed ViewResult - view Index executed in 8894.4044ms. 
+ 2023-03-21 13:48:23.657 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 10876.6815ms 
+ 2023-03-21 13:48:23.658 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:48:23.742 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 11117.3469ms 
+ 2023-03-21 13:48:24.471 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:48:24.476 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:48:24.477 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.8484ms 
+ 2023-03-21 13:48:24.495 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.1677ms 
+ 2023-03-21 13:48:24.713 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 13:48:24.722 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:48:24.735 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 20.4120ms 
+ 2023-03-21 13:48:24.755 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:48:24.793 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:48:24.793 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 37.8517ms 
+ 2023-03-21 13:49:26.308 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:49:26.978 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:49:26.978 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:49:26.983 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:49:26.983 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:49:26.983 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:49:28.503 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:49:28.625 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:49:28.633 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:49:28.678 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:49:30.233 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:49:30.774 -05:00  INF  Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:49:37.371 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:49:39.972 -05:00  INF  Executed ViewResult - view Index executed in 9030.4439ms. 
+ 2023-03-21 13:49:39.981 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 11302.1942ms 
+ 2023-03-21 13:49:39.982 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:49:40.062 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 11560.7656ms 
+ 2023-03-21 13:49:40.821 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:49:40.822 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:49:40.828 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.6834ms 
+ 2023-03-21 13:49:40.845 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.9585ms 
+ 2023-03-21 13:49:40.926 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 13:49:40.939 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:49:40.940 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 13.0994ms 
+ 2023-03-21 13:49:40.964 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:49:41.095 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:49:41.096 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 131.2391ms 
+ 2023-03-21 13:51:51.768 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:51:52.056 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:51:52.056 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:51:52.059 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:51:52.059 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:51:52.059 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:51:53.970 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:51:54.174 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:51:54.180 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:51:54.218 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:51:56.347 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:51:56.953 -05:00  INF  Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:52:03.255 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:52:05.756 -05:00  INF  Executed ViewResult - view Index executed in 8635.4886ms. 
+ 2023-03-21 13:52:05.765 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 11546.1493ms 
+ 2023-03-21 13:52:05.766 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:52:05.838 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 11870.7324ms 
+ 2023-03-21 13:52:06.587 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:52:06.590 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:52:06.593 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.6923ms 
+ 2023-03-21 13:52:06.612 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.2693ms 
+ 2023-03-21 13:52:07.121 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 13:52:07.132 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:52:07.133 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 12.3208ms 
+ 2023-03-21 13:52:07.177 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:52:07.220 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:52:07.220 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 43.6578ms 
+ 2023-03-21 13:54:09.314 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:54:09.854 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:54:09.854 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:54:09.859 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:54:09.859 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:54:09.859 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:54:12.304 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:54:12.405 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:54:12.413 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:54:12.460 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:54:13.854 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:54:14.404 -05:00  INF  Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:54:20.861 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:54:23.367 -05:00  INF  Executed ViewResult - view Index executed in 8715.794ms. 
+ 2023-03-21 13:54:23.375 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 10915.1473ms 
+ 2023-03-21 13:54:23.377 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:54:24.398 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 12097.1036ms 
+ 2023-03-21 13:54:25.169 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:54:25.171 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:54:25.174 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.6728ms 
+ 2023-03-21 13:54:25.193 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.4989ms 
+ 2023-03-21 13:54:25.512 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 13:54:25.519 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:54:25.520 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:54:25.522 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 10.0443ms 
+ 2023-03-21 13:54:25.557 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:54:25.558 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 38.7309ms 
+ 2023-03-21 13:54:40.691 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Users/ - - 
+ 2023-03-21 13:54:40.699 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:54:40.734 -05:00  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+ 2023-03-21 13:54:40.780 -05:00  INF  AuthenticationScheme: Identity.Application was challenged. 
+ 2023-03-21 13:54:40.780 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Users/ - - - 302 0 - 89.1298ms 
+ 2023-03-21 13:54:40.785 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Account/LogIn?ReturnUrl=%2FUsers%2F - - 
+ 2023-03-21 13:54:40.787 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:54:40.787 -05:00  INF  Executing endpoint 'GymManager.Web.Controlers.AccountController.Login (GymManager.Web)' 
+ 2023-03-21 13:54:40.789 -05:00  INF  Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller GymManager.Web.Controlers.AccountController (GymManager.Web). 
+ 2023-03-21 13:54:40.970 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:54:41.977 -05:00  INF  Executed DbCommand (563ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `AspNetUsers` AS `a`) 
+ 2023-03-21 13:54:44.309 -05:00  INF  Executing ViewResult, running view Login. 
+ 2023-03-21 13:54:44.821 -05:00  INF  Executed ViewResult - view Login executed in 2818.8644ms. 
+ 2023-03-21 13:54:44.822 -05:00  INF  Executed action GymManager.Web.Controlers.AccountController.Login (GymManager.Web) in 4032.3794ms 
+ 2023-03-21 13:54:44.822 -05:00  INF  Executed endpoint 'GymManager.Web.Controlers.AccountController.Login (GymManager.Web)' 
+ 2023-03-21 13:54:44.828 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Account/LogIn?ReturnUrl=%2FUsers%2F - - - 200 - text/html;+charset=utf-8 4042.5872ms 
+ 2023-03-21 13:54:44.837 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:54:44.837 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5620ms 
+ 2023-03-21 13:54:44.847 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:54:44.866 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.7914ms 
+ 2023-03-21 13:54:45.083 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:54:45.087 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:54:45.087 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 3.5373ms 
+ 2023-03-21 13:54:58.380 -05:00  INF  Request starting HTTP/2 POST https://localhost:7223/Account/Login application/x-www-form-urlencoded 264 
+ 2023-03-21 13:54:58.381 -05:00  INF  Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+ 2023-03-21 13:54:58.381 -05:00  INF  Executing endpoint 'GymManager.Web.Controlers.AccountController.Login (GymManager.Web)' 
+ 2023-03-21 13:54:58.572 -05:00  INF  Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(GymManager.Web.Models.LoginModel) on controller GymManager.Web.Controlers.AccountController (GymManager.Web). 
+ 2023-03-21 13:54:58.693 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:54:58.869 -05:00  INF  Executed DbCommand (141ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `AspNetUsers` AS `a`) 
+ 2023-03-21 13:54:59.595 -05:00  INF  Executed DbCommand (236ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1 
+ 2023-03-21 13:55:00.621 -05:00  INF  Executed DbCommand (244ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0 
+ 2023-03-21 13:55:00.668 -05:00  INF  AuthenticationScheme: Identity.Application signed in. 
+ 2023-03-21 13:55:00.677 -05:00  INF  Executing LocalRedirectResult, redirecting to /. 
+ 2023-03-21 13:55:00.678 -05:00  INF  Executed action GymManager.Web.Controlers.AccountController.Login (GymManager.Web) in 2105.3481ms 
+ 2023-03-21 13:55:00.678 -05:00  INF  Executed endpoint 'GymManager.Web.Controlers.AccountController.Login (GymManager.Web)' 
+ 2023-03-21 13:55:00.679 -05:00  INF  Request finished HTTP/2 POST https://localhost:7223/Account/Login application/x-www-form-urlencoded 264 - 302 0 - 2299.2802ms 
+ 2023-03-21 13:55:00.683 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:55:00.710 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:55:00.711 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:55:00.712 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:55:00.831 -05:00  INF  Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:55:00.833 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:55:00.864 -05:00  INF  Executed ViewResult - view Index executed in 30.6116ms. 
+ 2023-03-21 13:55:00.865 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 153.7394ms 
+ 2023-03-21 13:55:00.865 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:55:00.871 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 187.6096ms 
+ 2023-03-21 13:55:00.886 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:55:00.893 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:55:00.894 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.7321ms 
+ 2023-03-21 13:55:00.906 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.9889ms 
+ 2023-03-21 13:55:00.935 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:55:00.951 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:55:00.951 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 16.1724ms 
+ 2023-03-21 13:56:12.409 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 13:56:12.708 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 13:56:12.708 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 13:56:12.710 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 13:56:12.711 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 13:56:12.711 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 13:56:15.257 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 13:56:15.830 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:56:15.846 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 13:56:16.867 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 13:56:17.468 -05:00  INF  Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 13:56:23.737 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 13:56:26.204 -05:00  INF  Executed ViewResult - view Index executed in 8551.0944ms. 
+ 2023-03-21 13:56:26.213 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 10367.1685ms 
+ 2023-03-21 13:56:26.214 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 13:56:26.295 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 11044.8252ms 
+ 2023-03-21 13:56:27.065 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 13:56:27.067 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 13:56:27.072 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 7.8320ms 
+ 2023-03-21 13:56:27.091 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.3772ms 
+ 2023-03-21 13:56:27.239 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 13:56:27.283 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 13:56:27.284 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 44.0788ms 
+ 2023-03-21 13:56:27.426 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 13:56:27.467 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 40.5709ms 
+ 2023-03-21 14:03:45.197 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 14:03:46.047 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 14:03:46.047 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 14:03:46.052 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 14:03:46.052 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 14:03:46.052 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 14:03:47.891 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 14:03:50.091 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:03:50.114 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 14:03:51.241 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:03:51.955 -05:00  INF  Executed DbCommand (173ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:04:00.752 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:04:36.514 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 14:04:36.905 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 14:04:36.905 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 14:04:36.910 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 14:04:36.910 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 14:04:36.910 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 14:04:39.773 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 14:04:40.601 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:04:40.618 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 14:04:41.541 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:04:42.240 -05:00  INF  Executed DbCommand (216ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:04:48.680 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:04:51.331 -05:00  INF  Executed ViewResult - view Index executed in 8894.3483ms. 
+ 2023-03-21 14:04:51.379 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 10759.5404ms 
+ 2023-03-21 14:04:51.381 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:04:51.663 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 11886.3928ms 
+ 2023-03-21 14:04:52.324 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:04:52.333 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 8.7062ms 
+ 2023-03-21 14:04:52.396 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:04:52.416 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.2405ms 
+ 2023-03-21 14:04:53.537 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:04:53.927 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:04:53.927 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 390.0592ms 
+ 2023-03-21 14:04:54.081 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 14:04:54.126 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 39.1142ms 
+ 2023-03-21 14:05:18.578 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:05:18.633 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:05:18.635 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:05:37.947 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:05:37.969 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 478.4089ms. 
+ 2023-03-21 14:05:37.969 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 19334.4274ms 
+ 2023-03-21 14:05:37.969 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:05:37.985 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/images/imagenlogopdf.jpg - - 
+ 2023-03-21 14:05:37.986 -05:00  WRN  Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. 
+ 2023-03-21 14:05:37.986 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 19410.0395ms 
+ 2023-03-21 14:05:38.142 -05:00  INF  Sending file. Request path: '/images/imagenlogopdf.jpg'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Images\imagenLogoPdf.jpg' 
+ 2023-03-21 14:05:38.143 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/images/imagenlogopdf.jpg - - - 200 182644 image/jpeg 157.6027ms 
+ 2023-03-21 14:13:50.765 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 14:13:51.203 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 14:13:51.203 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 14:13:51.206 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 14:13:51.206 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 14:13:51.206 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 14:13:53.672 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 14:13:55.383 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:13:57.832 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 14:14:04.772 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:14:08.096 -05:00  INF  Executed DbCommand (737ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:14:51.687 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:16:28.150 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 14:16:28.626 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 14:16:28.626 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 14:16:28.629 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 14:16:28.629 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 14:16:28.629 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 14:16:31.874 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 14:16:33.369 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:16:33.394 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 14:16:34.778 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:16:35.736 -05:00  INF  Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:16:46.875 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:16:49.592 -05:00  INF  Executed ViewResult - view Index executed in 13654.6273ms. 
+ 2023-03-21 14:16:49.617 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 16222.0168ms 
+ 2023-03-21 14:16:49.618 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:16:50.071 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 18203.2970ms 
+ 2023-03-21 14:16:50.822 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:16:50.840 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:16:50.881 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.4421ms 
+ 2023-03-21 14:16:50.984 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 162.1625ms 
+ 2023-03-21 14:16:51.535 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 14:16:51.877 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 341.9279ms 
+ 2023-03-21 14:16:52.362 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:16:52.696 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:16:52.696 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 334.1493ms 
+ 2023-03-21 14:16:57.802 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:16:58.050 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:16:58.053 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:16:58.475 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:16:58.494 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 439.136ms. 
+ 2023-03-21 14:16:58.495 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 441.3188ms 
+ 2023-03-21 14:16:58.495 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:16:58.502 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 699.2028ms 
+ 2023-03-21 14:16:58.552 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:16:58.564 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.2397ms 
+ 2023-03-21 14:16:58.572 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:16:58.573 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5588ms 
+ 2023-03-21 14:16:58.619 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:16:58.631 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:16:58.632 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 12.7585ms 
+ 2023-03-21 14:17:51.013 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:17:51.045 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:17:51.049 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:17:51.051 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:17:51.051 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:17:51.051 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:17:51.118 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:17:51.310 -05:00  INF  Executed DbCommand (162ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:17:51.869 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:17:51.904 -05:00  INF  Executed ViewResult - view Index executed in 587.7285ms. 
+ 2023-03-21 14:17:51.904 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 855.0793ms 
+ 2023-03-21 14:17:51.904 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:17:51.910 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 898.1767ms 
+ 2023-03-21 14:17:51.919 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:17:51.919 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:17:51.920 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.4901ms 
+ 2023-03-21 14:17:51.924 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.3007ms 
+ 2023-03-21 14:17:51.980 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:17:52.016 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:17:52.017 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 37.3717ms 
+ 2023-03-21 14:18:00.023 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Users/ - - 
+ 2023-03-21 14:18:00.066 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.UsersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:00.074 -05:00  INF  Route matched with {action = "Index", controller = "Users", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.UsersController (GymManager.Web). 
+ 2023-03-21 14:18:00.136 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:18:00.390 -05:00  INF  Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a` 
+ 2023-03-21 14:18:01.063 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:18:01.081 -05:00  INF  Executed ViewResult - view Index executed in 571.3239ms. 
+ 2023-03-21 14:18:01.082 -05:00  INF  Executed action GymManager.Web.Controllers.UsersController.Index (GymManager.Web) in 1007.7065ms 
+ 2023-03-21 14:18:01.082 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.UsersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:01.085 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Users/ - - - 200 - text/html;+charset=utf-8 1062.1269ms 
+ 2023-03-21 14:18:01.093 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:18:01.093 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:18:01.093 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.4789ms 
+ 2023-03-21 14:18:01.097 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.5780ms 
+ 2023-03-21 14:18:01.130 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:18:01.134 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:18:01.135 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.7701ms 
+ 2023-03-21 14:18:06.188 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:18:06.256 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:06.257 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:18:06.258 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:18:06.258 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:18:06.258 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:18:06.260 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:18:06.288 -05:00  INF  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:18:06.288 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:18:06.293 -05:00  INF  Executed ViewResult - view Index executed in 4.8861ms. 
+ 2023-03-21 14:18:06.293 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 36.4164ms 
+ 2023-03-21 14:18:06.293 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:06.296 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 109.2190ms 
+ 2023-03-21 14:18:06.304 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:18:06.304 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:18:06.304 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5062ms 
+ 2023-03-21 14:18:06.307 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.3804ms 
+ 2023-03-21 14:18:06.354 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:18:06.358 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:18:06.359 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 5.0563ms 
+ 2023-03-21 14:18:11.611 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:18:11.613 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:11.614 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:18:11.614 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:18:11.614 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:18:11.614 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:18:11.614 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:18:11.676 -05:00  INF  Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:18:11.677 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:18:11.683 -05:00  INF  Executed ViewResult - view Index executed in 6.1762ms. 
+ 2023-03-21 14:18:11.683 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 69.5383ms 
+ 2023-03-21 14:18:11.683 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:11.687 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 76.6039ms 
+ 2023-03-21 14:18:11.695 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:18:11.696 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:18:11.696 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5705ms 
+ 2023-03-21 14:18:11.705 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5173ms 
+ 2023-03-21 14:18:11.738 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:18:11.742 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:18:11.742 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.0491ms 
+ 2023-03-21 14:18:16.644 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 14:18:16.761 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:16.761 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 14:18:16.762 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:18:16.881 -05:00  INF  Executed DbCommand (100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:18:16.883 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:18:16.900 -05:00  INF  Executed ViewResult - view Index executed in 17.1814ms. 
+ 2023-03-21 14:18:16.900 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 139.3379ms 
+ 2023-03-21 14:18:16.901 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:16.910 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 265.4905ms 
+ 2023-03-21 14:18:16.939 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:18:16.940 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:18:16.941 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 2.3559ms 
+ 2023-03-21 14:18:16.950 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.0866ms 
+ 2023-03-21 14:18:17.025 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:18:17.029 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:18:17.029 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 3.7966ms 
+ 2023-03-21 14:18:22.605 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:18:22.623 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:22.623 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:18:22.623 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:18:22.623 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:18:22.623 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:18:22.624 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:18:22.633 -05:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:18:22.633 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:18:22.638 -05:00  INF  Executed ViewResult - view Index executed in 5.4303ms. 
+ 2023-03-21 14:18:22.638 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 15.2717ms 
+ 2023-03-21 14:18:22.639 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:18:22.792 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 187.8687ms 
+ 2023-03-21 14:18:22.807 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:18:22.807 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:18:22.807 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.8165ms 
+ 2023-03-21 14:18:22.811 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.1077ms 
+ 2023-03-21 14:18:22.842 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:18:22.847 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:18:22.848 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 5.4302ms 
+ 2023-03-21 14:37:41.559 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 14:37:42.381 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 14:37:42.381 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 14:37:42.384 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 14:37:42.384 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 14:37:42.384 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 14:37:47.006 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 14:37:51.329 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:37:52.663 -05:00  INF  Executed DbCommand (159ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1 
+ 2023-03-21 14:37:53.407 -05:00  INF  Executed DbCommand (130ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0 
+ 2023-03-21 14:37:53.450 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:37:53.488 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 14:37:53.698 -05:00  INF  Executed DbCommand (149ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:38:04.126 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:38:07.597 -05:00  INF  Executed ViewResult - view Index executed in 13787.9698ms. 
+ 2023-03-21 14:38:07.607 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 14118.1071ms 
+ 2023-03-21 14:38:07.608 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:38:07.797 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 20795.3792ms 
+ 2023-03-21 14:38:08.521 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:38:08.524 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:38:08.528 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.3292ms 
+ 2023-03-21 14:38:08.540 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.1330ms 
+ 2023-03-21 14:38:08.893 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:38:09.015 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:38:09.016 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 122.8421ms 
+ 2023-03-21 14:38:09.082 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 14:38:09.158 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 73.7633ms 
+ 2023-03-21 14:39:07.484 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:39:07.569 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:39:07.571 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:39:07.786 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:39:07.811 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 239.0272ms. 
+ 2023-03-21 14:39:07.811 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 240.4111ms 
+ 2023-03-21 14:39:07.811 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:39:07.819 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 336.1277ms 
+ 2023-03-21 14:39:07.832 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:39:07.832 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5993ms 
+ 2023-03-21 14:39:07.837 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:39:07.928 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:39:07.932 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:39:07.932 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.2239ms 
+ 2023-03-21 14:39:07.947 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.8946ms 
+ 2023-03-21 14:39:14.024 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:39:14.060 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:39:14.066 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:39:14.068 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:39:14.068 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:39:14.068 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:39:14.146 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:39:14.246 -05:00  INF  Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:39:14.486 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:39:14.510 -05:00  INF  Executed ViewResult - view Index executed in 261.5639ms. 
+ 2023-03-21 14:39:14.510 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 444.1647ms 
+ 2023-03-21 14:39:14.510 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:39:14.513 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 489.6818ms 
+ 2023-03-21 14:39:14.522 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:39:14.522 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:39:14.522 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.4645ms 
+ 2023-03-21 14:39:14.530 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.7680ms 
+ 2023-03-21 14:39:14.558 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:39:14.564 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:39:14.564 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 5.9506ms 
+ 2023-03-21 14:40:03.167 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:40:03.172 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:03.172 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:40:03.173 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:40:03.173 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:40:03.173 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:40:03.180 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:40:03.322 -05:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:40:03.323 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:40:03.526 -05:00  INF  Executed ViewResult - view Index executed in 202.5741ms. 
+ 2023-03-21 14:40:03.526 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 353.5023ms 
+ 2023-03-21 14:40:03.526 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:03.529 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 361.4715ms 
+ 2023-03-21 14:40:03.537 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:40:03.537 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:40:03.537 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.6925ms 
+ 2023-03-21 14:40:03.542 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.3623ms 
+ 2023-03-21 14:40:03.581 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:40:03.632 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:40:03.633 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 51.3309ms 
+ 2023-03-21 14:40:22.876 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:40:22.899 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:22.899 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:40:22.899 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:40:22.899 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:40:22.899 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:40:22.899 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:40:22.988 -05:00  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:40:22.989 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:40:23.148 -05:00  INF  Executed ViewResult - view Index executed in 158.8747ms. 
+ 2023-03-21 14:40:23.148 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 249.3749ms 
+ 2023-03-21 14:40:23.148 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:23.150 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 273.6324ms 
+ 2023-03-21 14:40:23.160 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:40:23.160 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:40:23.160 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.6492ms 
+ 2023-03-21 14:40:23.164 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.3143ms 
+ 2023-03-21 14:40:23.194 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:40:23.200 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:40:23.200 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 6.2944ms 
+ 2023-03-21 14:40:45.985 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:40:46.090 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:46.090 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:40:46.091 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:40:46.091 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:40:46.091 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:40:46.092 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:40:46.131 -05:00  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:40:46.131 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:40:46.440 -05:00  INF  Executed ViewResult - view Index executed in 308.7657ms. 
+ 2023-03-21 14:40:46.440 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 349.7835ms 
+ 2023-03-21 14:40:46.440 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:46.443 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 458.9239ms 
+ 2023-03-21 14:40:46.452 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:40:46.452 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:40:46.452 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.6923ms 
+ 2023-03-21 14:40:46.456 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.1518ms 
+ 2023-03-21 14:40:46.491 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:40:46.495 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:40:46.496 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.5667ms 
+ 2023-03-21 14:40:58.879 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Users/ - - 
+ 2023-03-21 14:40:58.883 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.UsersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:58.887 -05:00  INF  Route matched with {action = "Index", controller = "Users", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.UsersController (GymManager.Web). 
+ 2023-03-21 14:40:58.909 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:40:59.046 -05:00  INF  Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a` 
+ 2023-03-21 14:40:59.237 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:40:59.252 -05:00  INF  Executed ViewResult - view Index executed in 203.9983ms. 
+ 2023-03-21 14:40:59.252 -05:00  INF  Executed action GymManager.Web.Controllers.UsersController.Index (GymManager.Web) in 364.6112ms 
+ 2023-03-21 14:40:59.252 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.UsersController.Index (GymManager.Web)' 
+ 2023-03-21 14:40:59.258 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Users/ - - - 200 - text/html;+charset=utf-8 378.7866ms 
+ 2023-03-21 14:40:59.268 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:40:59.268 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:40:59.268 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.6482ms 
+ 2023-03-21 14:40:59.271 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.5289ms 
+ 2023-03-21 14:40:59.306 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:40:59.310 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:40:59.311 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.3318ms 
+ 2023-03-21 14:41:17.767 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Members/ - - 
+ 2023-03-21 14:41:17.773 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:41:17.774 -05:00  INF  Route matched with {action = "Index", controller = "Members", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.MembersController (GymManager.Web). 
+ 2023-03-21 14:41:17.774 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:41:17.774 -05:00  INF  ***********  Now you are in the Members Index   *********** 
+ 2023-03-21 14:41:17.774 -05:00  INF  ----------------------------------------------------------- 
+ 2023-03-21 14:41:17.774 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:41:17.883 -05:00  INF  Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:41:17.885 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:41:17.899 -05:00  INF  Executed ViewResult - view Index executed in 13.4895ms. 
+ 2023-03-21 14:41:17.899 -05:00  INF  Executed action GymManager.Web.Controllers.MembersController.Index (GymManager.Web) in 125.2706ms 
+ 2023-03-21 14:41:17.899 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.MembersController.Index (GymManager.Web)' 
+ 2023-03-21 14:41:17.905 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Members/ - - - 200 - text/html;+charset=utf-8 137.8896ms 
+ 2023-03-21 14:41:17.915 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:41:17.916 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:41:17.916 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.7406ms 
+ 2023-03-21 14:41:17.938 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.2041ms 
+ 2023-03-21 14:41:17.972 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:41:17.976 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:41:17.977 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.9569ms 
+ 2023-03-21 14:54:57.003 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 14:54:57.464 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 14:54:57.464 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 14:54:57.467 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 14:54:57.467 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 14:54:57.467 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 14:55:00.638 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 14:55:01.666 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:55:01.688 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 14:55:02.883 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 14:55:03.550 -05:00  INF  Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 14:55:11.663 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 14:55:14.860 -05:00  INF  Executed ViewResult - view Index executed in 11134.731ms. 
+ 2023-03-21 14:55:14.869 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 13179.918ms 
+ 2023-03-21 14:55:14.870 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 14:55:14.960 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 14328.1402ms 
+ 2023-03-21 14:55:15.904 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:55:15.904 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:55:15.924 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 20.2096ms 
+ 2023-03-21 14:55:15.953 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.6844ms 
+ 2023-03-21 14:55:16.336 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 14:55:16.413 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:55:16.452 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 112.2941ms 
+ 2023-03-21 14:55:16.464 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:55:16.465 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 51.9347ms 
+ 2023-03-21 14:57:18.989 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:57:19.076 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:57:19.079 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:57:19.580 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:57:20.237 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 1156.8474ms. 
+ 2023-03-21 14:57:20.237 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 1158.3969ms 
+ 2023-03-21 14:57:20.237 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:57:20.244 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 1255.3811ms 
+ 2023-03-21 14:57:20.261 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:57:20.261 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.9046ms 
+ 2023-03-21 14:57:20.263 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:57:20.269 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.5197ms 
+ 2023-03-21 14:57:20.306 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:57:20.351 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:57:20.351 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 45.2706ms 
+ 2023-03-21 14:57:54.709 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/Print - - 
+ 2023-03-21 14:57:54.754 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/Print - - - 404 0 - 44.5415ms 
+ 2023-03-21 14:58:51.242 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:58:51.251 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:58:51.251 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:58:51.666 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:58:51.700 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 448.772ms. 
+ 2023-03-21 14:58:51.700 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 449.0927ms 
+ 2023-03-21 14:58:51.700 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:58:51.707 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 465.2541ms 
+ 2023-03-21 14:58:51.720 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:58:51.721 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:58:51.721 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.7919ms 
+ 2023-03-21 14:58:51.742 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.4259ms 
+ 2023-03-21 14:58:51.758 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:58:51.772 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:58:51.773 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 14.3658ms 
+ 2023-03-21 14:58:53.668 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:58:53.695 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:58:53.695 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:58:53.695 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:58:53.706 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 10.4769ms. 
+ 2023-03-21 14:58:53.706 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 10.7123ms 
+ 2023-03-21 14:58:53.706 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:58:53.708 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 40.4866ms 
+ 2023-03-21 14:58:53.716 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:58:53.716 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:58:53.716 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.4507ms 
+ 2023-03-21 14:58:53.719 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.5611ms 
+ 2023-03-21 14:58:53.754 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:58:53.758 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:58:53.758 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 3.7201ms 
+ 2023-03-21 14:58:54.556 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:58:54.637 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:58:54.637 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:58:54.637 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:58:54.644 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 7.1967ms. 
+ 2023-03-21 14:58:54.645 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 7.4399ms 
+ 2023-03-21 14:58:54.645 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:58:54.647 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 91.4150ms 
+ 2023-03-21 14:58:54.654 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:58:54.654 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:58:54.654 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5108ms 
+ 2023-03-21 14:58:54.657 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.3426ms 
+ 2023-03-21 14:58:54.709 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:58:54.713 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:58:54.713 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.0897ms 
+ 2023-03-21 14:59:29.669 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 14:59:29.753 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:59:29.753 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 14:59:30.100 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 14:59:30.113 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 359.9063ms. 
+ 2023-03-21 14:59:30.113 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 360.2486ms 
+ 2023-03-21 14:59:30.114 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 14:59:30.116 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 447.3616ms 
+ 2023-03-21 14:59:30.124 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 14:59:30.124 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 14:59:30.125 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5594ms 
+ 2023-03-21 14:59:30.129 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.1188ms 
+ 2023-03-21 14:59:30.153 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 14:59:30.182 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 14:59:30.183 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 29.4008ms 
+ 2023-03-21 15:06:39.212 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 15:06:40.134 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 15:06:40.134 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 15:06:40.138 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 15:06:40.139 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 15:06:40.139 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 15:06:48.442 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 15:06:49.981 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 15:06:50.009 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 15:06:51.274 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 15:06:52.176 -05:00  INF  Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 15:07:02.380 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 15:07:05.612 -05:00  INF  Executed ViewResult - view Index executed in 13171.594ms. 
+ 2023-03-21 15:07:05.621 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 15611.1651ms 
+ 2023-03-21 15:07:05.622 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 15:07:05.714 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 17275.4619ms 
+ 2023-03-21 15:07:06.490 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 15:07:06.490 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 15:07:06.496 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.1583ms 
+ 2023-03-21 15:07:06.510 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.0537ms 
+ 2023-03-21 15:07:06.802 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 15:07:06.894 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 90.4202ms 
+ 2023-03-21 15:07:06.898 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 15:07:07.074 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 15:07:07.074 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 175.8229ms 
+ 2023-03-21 15:08:14.494 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 15:08:14.742 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 15:08:15.565 -05:00  INF  Executed DbCommand (218ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1 
+ 2023-03-21 15:08:16.336 -05:00  INF  Executed DbCommand (329ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0 
+ 2023-03-21 15:08:16.369 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 15:08:16.370 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 15:08:16.494 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 15:08:16.746 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 375.023ms. 
+ 2023-03-21 15:08:16.746 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 376.1191ms 
+ 2023-03-21 15:08:16.746 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 15:08:16.829 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 2335.1697ms 
+ 2023-03-21 15:08:16.894 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 15:08:16.903 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 15:08:16.903 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 9.1443ms 
+ 2023-03-21 15:08:16.912 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 15:08:16.916 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 15:08:16.916 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.1736ms 
+ 2023-03-21 15:08:16.930 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.8959ms 
+ 2023-03-21 15:08:20.001 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/Print - - 
+ 2023-03-21 15:08:20.045 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 15:08:20.047 -05:00  INF  Route matched with {action = "Print", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Print() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 15:08:21.010 -05:00  INF  Executing ViewResult, running view Print. 
+ 2023-03-21 15:08:21.047 -05:00  INF  Executed ViewResult - view Print executed in 999.414ms. 
+ 2023-03-21 15:08:21.047 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web) in 999.9926ms 
+ 2023-03-21 15:08:21.047 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 15:08:21.049 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/Print - - - 200 - text/html;+charset=utf-8 1047.4998ms 
+ 2023-03-21 15:08:21.076 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 15:08:21.077 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5689ms 
+ 2023-03-21 15:08:21.084 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 15:08:21.089 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8375ms 
+ 2023-03-21 15:08:21.355 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 15:08:21.388 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 15:08:21.388 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 33.6486ms 
+ 2023-03-21 16:08:18.666 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 16:08:20.674 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 16:08:20.674 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 16:08:20.678 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 16:08:20.678 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 16:08:20.678 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 16:08:32.958 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 16:08:39.068 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 16:08:41.110 -05:00  INF  Executed DbCommand (601ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1 
+ 2023-03-21 16:08:42.134 -05:00  INF  Executed DbCommand (258ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0 
+ 2023-03-21 16:08:42.191 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 16:08:42.314 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 16:08:42.621 -05:00  INF  Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 16:08:55.689 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 16:09:03.254 -05:00  INF  Executed ViewResult - view Index executed in 20547.362ms. 
+ 2023-03-21 16:09:03.281 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 20964.8604ms 
+ 2023-03-21 16:09:03.282 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 16:09:03.992 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 31053.2503ms 
+ 2023-03-21 16:09:05.023 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 16:09:05.028 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 16:09:05.128 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 104.6487ms 
+ 2023-03-21 16:09:05.526 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 498.5497ms 
+ 2023-03-21 16:09:05.780 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 16:09:05.995 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 214.9891ms 
+ 2023-03-21 16:09:09.082 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 16:09:10.782 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 16:09:10.783 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 1701.1759ms 
+ 2023-03-21 16:14:21.392 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 16:14:21.680 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 16:14:21.682 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 16:14:21.901 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 16:14:22.155 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 470.8938ms. 
+ 2023-03-21 16:14:22.155 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 473.0481ms 
+ 2023-03-21 16:14:22.155 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 16:14:22.161 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 768.4922ms 
+ 2023-03-21 16:14:22.173 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 16:14:22.174 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5329ms 
+ 2023-03-21 16:14:22.186 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 16:14:22.213 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.1721ms 
+ 2023-03-21 16:14:22.244 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 16:14:22.276 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 16:14:22.276 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 32.2519ms 
+ 2023-03-21 16:14:24.201 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/Print - - 
+ 2023-03-21 16:14:24.287 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 16:14:24.290 -05:00  INF  Route matched with {action = "Print", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Print() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 16:14:35.536 -05:00  INF  Executing FileStreamResult, sending file with download name '' ... 
+ 2023-03-21 16:14:35.565 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web) in 11274.6755ms 
+ 2023-03-21 16:14:35.565 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 16:14:35.566 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/Print - - - 200 14413 application/pdf 11364.6779ms 
+ 2023-03-21 18:08:07.679 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 18:08:08.675 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 18:08:08.676 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 18:08:08.679 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 18:08:08.679 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 18:08:08.679 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 18:08:18.036 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 18:08:21.909 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 18:08:23.364 -05:00  INF  Executed DbCommand (254ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1 
+ 2023-03-21 18:08:23.882 -05:00  INF  Executed DbCommand (68ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0 
+ 2023-03-21 18:08:23.953 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 18:08:23.982 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 18:08:24.022 -05:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 18:08:35.279 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 18:08:39.108 -05:00  INF  Executed ViewResult - view Index executed in 15018.6836ms. 
+ 2023-03-21 18:08:39.119 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 15135.6703ms 
+ 2023-03-21 18:08:39.120 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 18:08:39.298 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 21265.5485ms 
+ 2023-03-21 18:08:40.413 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 18:08:40.417 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 18:08:40.422 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 8.8831ms 
+ 2023-03-21 18:08:40.445 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.2143ms 
+ 2023-03-21 18:08:40.958 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 18:08:41.710 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 749.9143ms 
+ 2023-03-21 18:08:41.826 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 18:08:41.919 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 18:08:41.920 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 93.9729ms 
+ 2023-03-21 18:09:52.003 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 18:09:52.095 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 18:09:52.096 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 18:09:52.301 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 18:09:52.462 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 364.8545ms. 
+ 2023-03-21 18:09:52.463 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 366.3333ms 
+ 2023-03-21 18:09:52.463 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 18:09:52.467 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 464.4136ms 
+ 2023-03-21 18:09:52.533 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 18:09:52.559 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 18:09:52.559 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 18:09:52.563 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 30.1762ms 
+ 2023-03-21 18:09:52.563 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.3432ms 
+ 2023-03-21 18:09:52.564 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 18:09:52.582 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.0885ms 
+ 2023-03-21 18:13:49.791 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/Print - - 
+ 2023-03-21 18:13:50.068 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 18:13:50.071 -05:00  INF  Route matched with {action = "Print", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Print() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 18:13:56.073 -05:00  INF  Executing FileStreamResult, sending file with download name '' ... 
+ 2023-03-21 18:13:56.110 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web) in 6038.1827ms 
+ 2023-03-21 18:13:56.110 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 18:13:56.111 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/Print - - - 200 14413 application/pdf 6320.4606ms 
+ 2023-03-21 18:21:55.379 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 18:21:55.750 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 18:21:55.750 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 18:21:55.754 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 18:21:55.754 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 18:21:55.754 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 18:21:57.692 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 18:21:58.373 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 18:21:58.390 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 18:21:59.683 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 18:22:00.267 -05:00  INF  Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 18:22:06.367 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 18:22:09.491 -05:00  INF  Executed ViewResult - view Index executed in 9033.2104ms. 
+ 2023-03-21 18:22:09.499 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 11108.1211ms 
+ 2023-03-21 18:22:09.500 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 18:22:09.575 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 11890.1586ms 
+ 2023-03-21 18:22:10.280 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 18:22:10.282 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 18:22:10.286 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.5512ms 
+ 2023-03-21 18:22:10.303 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.8524ms 
+ 2023-03-21 18:22:10.650 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 18:22:10.692 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 42.3029ms 
+ 2023-03-21 18:22:10.699 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 18:22:10.746 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 18:22:10.747 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 48.1949ms 
+ 2023-03-21 18:22:18.797 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 18:22:18.882 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 18:22:18.884 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 18:22:19.173 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 18:22:19.665 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 778.291ms. 
+ 2023-03-21 18:22:19.665 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 780.5466ms 
+ 2023-03-21 18:22:19.665 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 18:22:19.674 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 877.7009ms 
+ 2023-03-21 18:22:19.685 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 18:22:19.694 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.3123ms 
+ 2023-03-21 18:22:19.696 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 18:22:19.697 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.4531ms 
+ 2023-03-21 18:22:19.751 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 18:22:19.756 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 18:22:19.756 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 4.9402ms 
+ 2023-03-21 18:22:21.015 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/Print - - 
+ 2023-03-21 18:22:21.026 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 18:22:21.029 -05:00  INF  Route matched with {action = "Print", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Print() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 18:22:23.433 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/css/bootstrap.min.css - - 
+ 2023-03-21 18:22:23.438 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/images/imagenlogopdf.jpg - - 
+ 2023-03-21 18:22:23.464 -05:00  INF  Sending file. Request path: '/images/imagenlogopdf.jpg'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Images\imagenLogoPdf.jpg' 
+ 2023-03-21 18:22:23.464 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/images/imagenlogopdf.jpg - - - 200 182644 image/jpeg 26.5636ms 
+ 2023-03-21 18:22:23.628 -05:00  INF  Sending file. Request path: '/Bootstrap/css/bootstrap.min.css'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\css\bootstrap.min.css' 
+ 2023-03-21 18:22:23.628 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/css/bootstrap.min.css - - - 200 220780 text/css 195.5758ms 
+ 2023-03-21 18:22:26.148 -05:00  INF  Executing FileStreamResult, sending file with download name '' ... 
+ 2023-03-21 18:22:26.151 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web) in 5122.0233ms 
+ 2023-03-21 18:22:26.151 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 18:22:26.154 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/Print - - - 200 197761 application/pdf 5139.3317ms 
+ 2023-03-21 19:42:08.039 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-21 19:42:09.049 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-21 19:42:09.049 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-21 19:42:09.054 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-21 19:42:09.054 -05:00  INF  Hosting environment: Development 
+ 2023-03-21 19:42:09.054 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\ 
+ 2023-03-21 19:42:22.041 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-21 19:42:25.246 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-21 19:42:26.174 -05:00  INF  Executed DbCommand (99ms) [Parameters=[@__p_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`
+WHERE `a`.`Id` = @__p_0
+LIMIT 1 
+ 2023-03-21 19:42:26.566 -05:00  INF  Executed DbCommand (71ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT `a`.`Id`, `a`.`ClaimType`, `a`.`ClaimValue`, `a`.`UserId`
+FROM `AspNetUserClaims` AS `a`
+WHERE `a`.`UserId` = @__user_Id_0 
+ 2023-03-21 19:42:26.621 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 19:42:26.702 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-21 19:42:26.758 -05:00  INF  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `m`.`Id`, `m`.`AllowNewsletter`, `m`.`BirthDay`, `m`.`CityId`, `m`.`Email`, `m`.`LastName`, `m`.`Name`
+FROM `Members` AS `m` 
+ 2023-03-21 19:42:34.139 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-21 19:42:36.764 -05:00  INF  Executed ViewResult - view Index executed in 9962.0463ms. 
+ 2023-03-21 19:42:36.772 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 10069.1788ms 
+ 2023-03-21 19:42:36.773 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-21 19:42:36.919 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 200 - text/html;+charset=utf-8 14888.1655ms 
+ 2023-03-21 19:42:37.806 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 19:42:37.810 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 19:42:37.834 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 28.1858ms 
+ 2023-03-21 19:42:38.022 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 212.4190ms 
+ 2023-03-21 19:42:38.386 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-21 19:42:38.451 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 64.8133ms 
+ 2023-03-21 19:42:39.321 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 19:42:40.109 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 19:42:40.110 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 788.3614ms 
+ 2023-03-21 19:42:51.370 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - 
+ 2023-03-21 19:42:51.476 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 19:42:51.478 -05:00  INF  Route matched with {action = "GenerateInvoice", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GenerateInvoice() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 19:42:51.569 -05:00  INF  Executing ViewResult, running view GenerateInvoice. 
+ 2023-03-21 19:42:51.682 -05:00  INF  Executed ViewResult - view GenerateInvoice executed in 196.1557ms. 
+ 2023-03-21 19:42:51.682 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web) in 203.685ms 
+ 2023-03-21 19:42:51.682 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.GenerateInvoice (GymManager.Web)' 
+ 2023-03-21 19:42:51.686 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/GenerateInvoice - - - 200 - text/html;+charset=utf-8 316.9572ms 
+ 2023-03-21 19:42:51.730 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
+ 2023-03-21 19:42:51.737 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-21 19:42:51.737 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-21 19:42:51.738 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5678ms 
+ 2023-03-21 19:42:51.766 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
+ 2023-03-21 19:42:51.766 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1040ms 
+ 2023-03-21 19:42:51.768 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 37.2300ms 
+ 2023-03-21 19:42:53.878 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/Invoicing/Print - - 
+ 2023-03-21 19:42:53.970 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 19:42:53.975 -05:00  INF  Route matched with {action = "Print", controller = "Invoicing", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Print() on controller GymManager.Web.Controllers.InvoicingController (GymManager.Web). 
+ 2023-03-21 19:42:55.865 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/css/bootstrap.min.css - - 
+ 2023-03-21 19:42:55.931 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/images/imagenlogopdf.jpg - - 
+ 2023-03-21 19:42:56.036 -05:00  INF  Sending file. Request path: '/images/imagenlogopdf.jpg'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Images\imagenLogoPdf.jpg' 
+ 2023-03-21 19:42:56.037 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/images/imagenlogopdf.jpg - - - 200 182644 image/jpeg 105.5367ms 
+ 2023-03-21 19:42:56.146 -05:00  INF  Sending file. Request path: '/Bootstrap/css/bootstrap.min.css'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\css\bootstrap.min.css' 
+ 2023-03-21 19:42:56.146 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/css/bootstrap.min.css - - - 200 220780 text/css 281.1951ms 
+ 2023-03-21 19:42:59.177 -05:00  INF  Executing FileStreamResult, sending file with download name '' ... 
+ 2023-03-21 19:42:59.217 -05:00  INF  Executed action GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web) in 5241.2925ms 
+ 2023-03-21 19:42:59.217 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.InvoicingController.Print (GymManager.Web)' 
+ 2023-03-21 19:42:59.254 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/Invoicing/Print - - - 200 197761 application/pdf 5375.9438ms 
+ 

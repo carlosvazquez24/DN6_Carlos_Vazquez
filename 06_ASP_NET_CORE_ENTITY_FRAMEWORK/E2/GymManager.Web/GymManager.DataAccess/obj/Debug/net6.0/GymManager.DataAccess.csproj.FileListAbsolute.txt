@@ -77,20 +77,20 @@ C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRA
 C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.pdb
 C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.genruntimeconfig.cache
 C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T8\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\ref\GymManager.DataAccess.dll
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.deps.json
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.runtimeconfig.json
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.dll
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.pdb
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.Core.dll
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.Core.pdb
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.csproj.AssemblyReference.cache
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.AssemblyInfoInputs.cache
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.AssemblyInfo.cs
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.csproj.CopyComplete
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.dll
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\refint\GymManager.DataAccess.dll
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.pdb
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.genruntimeconfig.cache
-C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E2\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\ref\GymManager.DataAccess.dll
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.deps.json
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.runtimeconfig.json
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.dll
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.DataAccess.pdb
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.Core.dll
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\bin\Debug\net6.0\GymManager.Core.pdb
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.csproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.AssemblyInfoInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.AssemblyInfo.cs
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.dll
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\refint\GymManager.DataAccess.dll
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.pdb
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\GymManager.DataAccess.genruntimeconfig.cache
+C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\GymManager.DataAccess\obj\Debug\net6.0\ref\GymManager.DataAccess.dll

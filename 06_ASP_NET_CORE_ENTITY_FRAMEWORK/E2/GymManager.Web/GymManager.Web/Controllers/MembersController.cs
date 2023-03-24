@@ -1,5 +1,5 @@
 ﻿using GymManager.ApplicationServices.Members;
-using GymManager.Core.Member;
+using GymManager.Core.Members;
 using GymManager.Web.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj": {}
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
         "projectName": "GymManager.ApplicationServices",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.ApplicationServices\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
               },
-              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj"
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
         "projectName": "GymManager.Core",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,6 +112,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
@@ -137,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj",
         "projectName": "GymManager.DataAccess",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,8 +178,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
               }
             }
           }
@@ -184,13 +196,13 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.15, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -217,14 +229,14 @@
         }
       }
     },
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj",
         "projectName": "GymManager.Web",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Web\\GymManager.Web.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Web\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -246,14 +258,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj"
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj"
               },
-              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj"
               },
-              "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj"
+              "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.DataAccess\\GymManager.DataAccess.csproj"
               }
             }
           }
@@ -270,7 +282,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[6.0.14, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",

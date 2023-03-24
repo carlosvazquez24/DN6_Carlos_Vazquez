@@ -1,7 +1,7 @@
 using GymManager.ApplicationServices.Members;
 using GymManager.ApplicationServices.MembershipsTypes;
 using GymManager.ApplicationServices.Navigation;
-using GymManager.Core.Member;
+using GymManager.Core.Members;
 using GymManager.DataAccess;
 using GymManager.DataAccess.Repositories;
 using Microsoft.AspNetCore.Identity;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HSfQFqvTFG1+eeIud3Yd1VX8viMScD6voZqoJjN071RL+67YTBbEjVTV2jlGVCuaN/dfLrKtY6VxZAnmyNs9OQ==",
+  "dgSpecHash": "s8YScq7Bxhw5JZyFsdWnq0K4WIDeSwi85y8JVaFlifeCUs1CLMEZRqyVFANY7MrAOKuma3TpxLCohYRJbVLgVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\DataAccess.StoredProcedures\\DataAccess.StoredProcedures.csproj",
+  "projectFilePath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\DataAccess.StoredProcedures\\DataAccess.StoredProcedures.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],

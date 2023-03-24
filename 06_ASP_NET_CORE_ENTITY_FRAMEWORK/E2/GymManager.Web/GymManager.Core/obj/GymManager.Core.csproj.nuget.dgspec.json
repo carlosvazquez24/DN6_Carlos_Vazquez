@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {}
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
         "projectName": "GymManager.Core",
-        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\GymManager.Core.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E2\\GymManager.Web\\GymManager.Core\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Escritorio\\recuperacion gymanager\\GymManager.Web\\GymManager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
