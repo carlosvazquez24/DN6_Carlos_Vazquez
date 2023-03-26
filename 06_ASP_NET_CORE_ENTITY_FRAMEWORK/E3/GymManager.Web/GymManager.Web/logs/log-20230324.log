@@ -393,4 +393,20 @@ FROM `AspNetUsers` AS `a`
  2023-03-24 01:22:18.216 -05:00  INF  Request starting HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - 
  2023-03-24 01:22:18.224 -05:00  INF  Sending file. Request path: '/Bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\GymManager.Web\wwwroot\Bootstrap\js\bootstrap.bundle.min.js.map' 
  2023-03-24 01:22:18.224 -05:00  INF  Request finished HTTP/1.1 GET https://localhost:7223/Bootstrap/js/bootstrap.bundle.min.js.map - - - 200 333974 text/plain 8.4300ms 
+ 2023-03-24 22:35:50.371 -05:00  INF  Entity Framework Core 6.0.15 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-24 22:36:24.634 -05:00  INF  Entity Framework Core 6.0.15 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-24 22:36:25.124 -05:00  INF  Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='gymmanager' AND TABLE_NAME='__EFMigrationsHistory'; 
+ 2023-03-24 22:36:25.183 -05:00  INF  Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='gymmanager' AND TABLE_NAME='__EFMigrationsHistory'; 
+ 2023-03-24 22:36:25.934 -05:00  INF  Executed DbCommand (726ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`; 
+ 2023-03-24 22:36:25.959 -05:00  INF  Applying migration '20230325033550_addColumnAmmountEquipment'. 
+ 2023-03-24 22:36:27.425 -05:00  INF  Executed DbCommand (1,374ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `EquipmentTypes` ADD `Amount` int NOT NULL DEFAULT 0; 
+ 2023-03-24 22:36:27.490 -05:00  INF  Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20230325033550_addColumnAmmountEquipment', '6.0.15'); 
  

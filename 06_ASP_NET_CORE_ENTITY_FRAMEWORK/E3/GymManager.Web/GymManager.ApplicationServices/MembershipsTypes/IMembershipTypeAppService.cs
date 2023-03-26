@@ -11,15 +11,15 @@ namespace GymManager.ApplicationServices.MembershipsTypes
     {
 
 
-        Task<List<MembershipType>> getMembershipsTypesAsync();
+        Task<List<MembershipType>> GetAllMembershipsTypesAsync();
 
-        Task<int> addMembershipTypeAsync(MembershipType membership);
+        Task<int> AddMembershipTypeAsync(MembershipType membership);
 
-        Task deleteMembershipTypeAsync(int membershipTypeId);
+        Task DeleteMembershipTypeAsync(int membershipTypeId);
 
-        Task editMembershipTypeAsync(MembershipType membership);
+        Task EditMembershipTypeAsync(MembershipType membership);
 
-        Task<MembershipType> getMembershipTypeAsync(int membershipId);
+        Task<MembershipType> GetMembershipTypeAsync(int membershipId);
 
 
 

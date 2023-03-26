@@ -22,29 +22,29 @@ namespace GymManager.ApplicationServices.Members
         }
 
 
-        public async Task <int> addMemberAsync(Member member)
+        public async Task <int> AddMemberAsync(Member member)
         {
             await _repository.AddAsync(member);
             return member.Id;
         }
 
-        public async Task deleteMemberAsync(int memberId)
+        public async Task DeleteMemberAsync(int memberId)
         {
             await _repository.DeleteAsync(memberId);
         }
 
-        public async Task editMemberAsync(Member member)
+        public async Task EditMemberAsync(Member member)
         {
             await _repository.UpdateAsync(member);
             
         }
 
-        public async Task<Member> getMemberAsync(int memberId)
+        public async Task<Member> GetMemberAsync(int memberId)
         {
             return await _repository.GetAsync(memberId);
         }
 
-        public async Task<List<Member>> getMembersAsync()
+        public async Task<List<Member>> GetAllMembersAsync()
         {
 
             return await _repository.GetAllAsync().ToListAsync();

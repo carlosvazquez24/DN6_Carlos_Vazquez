@@ -10,13 +10,15 @@ namespace GymManager.Core.EquipmentTypes
     public class EquipmentType
     {
 
-        [Key]
-
         public int Id { get; set; }
 
         [Required]
         [StringLength(45)]
         public string Name { get; set; }
+
+        [Required]
+        [Range(1,100)]
+        public int Amount { get; set; }
 
 
     }

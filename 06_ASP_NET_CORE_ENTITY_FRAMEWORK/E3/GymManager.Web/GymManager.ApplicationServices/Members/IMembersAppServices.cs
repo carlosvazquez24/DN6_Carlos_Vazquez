@@ -9,15 +9,15 @@ namespace GymManager.ApplicationServices.Members
 {
     public interface IMembersAppServices
     {
-        Task<List<Member>> getMembersAsync();
+        Task<List<Member>> GetAllMembersAsync();
 
-        Task<int> addMemberAsync(Member member);
+        Task<int> AddMemberAsync(Member member);
 
-        Task deleteMemberAsync(int memberId);
+        Task DeleteMemberAsync(int memberId);
 
-        Task editMemberAsync(Member member);
+        Task EditMemberAsync(Member member);
 
-        Task<Member>  getMemberAsync(int memberId);
+        Task<Member>  GetMemberAsync(int memberId);
 
     }
 }

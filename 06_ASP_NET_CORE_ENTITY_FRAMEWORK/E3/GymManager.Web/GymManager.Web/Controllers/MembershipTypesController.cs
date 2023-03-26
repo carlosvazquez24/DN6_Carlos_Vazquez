@@ -16,7 +16,7 @@ namespace GymManager.Web.Controllers
         public async Task<IActionResult> Index()
         {
 
-            var memberships = await _membershipAppService.getMembershipsTypesAsync();
+            var memberships = await _membershipAppService.GetAllMembershipsTypesAsync();
             MembershipTypeListModel model = new MembershipTypeListModel();
             model.Memberships = memberships;
 
@@ -29,21 +29,21 @@ namespace GymManager.Web.Controllers
 
         public async Task<IActionResult> Edit(int membershipId)
         {
-            MembershipType membership = await  _membershipAppService.getMembershipTypeAsync(membershipId);
+            MembershipType membership = await  _membershipAppService.GetMembershipTypeAsync(membershipId);
             return View(membership);
         }
 
 
         public async Task <IActionResult> Delete(int membershipId)
         {
-            await _membershipAppService.deleteMembershipTypeAsync(membershipId);
+            await _membershipAppService.DeleteMembershipTypeAsync(membershipId);
             return RedirectToAction("Index");
         }
 
         [HttpPost]
         public async  Task<IActionResult> Create(MembershipType membership)
         {
-            await _membershipAppService.addMembershipTypeAsync(membership);
+            await _membershipAppService.AddMembershipTypeAsync(membership);
             return RedirectToAction("Index");
         }
 
@@ -51,7 +51,7 @@ namespace GymManager.Web.Controllers
         [HttpPost]
         public async  Task<IActionResult> Edit (MembershipType membership)
         {
-            await _membershipAppService.editMembershipTypeAsync(membership);
+            await _membershipAppService.EditMembershipTypeAsync(membership);
             return RedirectToAction("Index");
         }
         

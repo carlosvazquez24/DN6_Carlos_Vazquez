@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7QtnwbTzAyikHU4oYpxie/y1Sj4IAwh9M2L6T8boTSA=",
+  "Hash": "OJWNBqHgPZ6VrjkdqdPjY5xMkg8OF9G6by1MR5Fayvs=",
   "Source": "GymManager.Web",
   "BasePath": "_content/GymManager.Web",
   "Mode": "Default",
@@ -2089,6 +2089,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Views\\Members\\Create.js"
+    },
+    {
+      "Identity": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E3\\GymManager.Web\\GymManager.Web\\wwwroot\\Views\\MembershipRenewal\\Edit.js",
+      "SourceId": "GymManager.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E3\\GymManager.Web\\GymManager.Web\\wwwroot\\",
+      "BasePath": "_content/GymManager.Web",
+      "RelativePath": "Views/MembershipRenewal/Edit.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Views\\MembershipRenewal\\Edit.js"
     },
     {
       "Identity": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E3\\GymManager.Web\\GymManager.Web\\wwwroot\\Views\\Users\\Create.js",

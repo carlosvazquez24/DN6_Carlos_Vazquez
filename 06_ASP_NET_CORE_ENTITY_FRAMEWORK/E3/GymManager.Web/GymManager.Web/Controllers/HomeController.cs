@@ -15,7 +15,7 @@ namespace GymManager.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<Member> members = await _membersAppServices.getMembersAsync();
+            List<Member> members = await _membersAppServices.GetAllMembersAsync();
             return View(members);
         }
     }

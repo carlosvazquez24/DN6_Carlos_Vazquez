@@ -1,4 +1,5 @@
 ﻿using GymManager.ApplicationServices.Members;
+using GymManager.ApplicationServices.MembershipsTypes;
 using GymManager.Core.Members;
 using GymManager.Web.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -13,14 +14,15 @@ namespace GymManager.Web.Controllers
     public class MembersController : Controller
     {
         private readonly IMembersAppServices _membersAppServices;
+        private readonly IMembershipTypeAppService _membershipTypeAppService;
         private readonly ILogger<MembersController> _logger;
 
-        public MembersController(IMembersAppServices membersAppServices, ILogger<MembersController> logger1) {
-
+        public MembersController(IMembersAppServices membersAppServices, ILogger<MembersController> logger1, IMembershipTypeAppService membershipTypeAppService) {
+            _membershipTypeAppService = membershipTypeAppService;
             _membersAppServices = membersAppServices;
             _logger = logger1;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string buscar)
         {
             _logger.LogInformation("-----------------------------------------------------------");
             _logger.LogInformation("***********  Now you are in the Members Index   ***********");
@@ -28,7 +30,20 @@ namespace GymManager.Web.Controllers
 
 
             //Obtener los miembros de la base de datos
-            var members = await _membersAppServices.getMembersAsync();
+            var members = await _membersAppServices.GetAllMembersAsync();
+
+            //Hacer la busqueda de miembros si se le ingreso un string a buscar
+            if (!String.IsNullOrEmpty(buscar))
+            {
+                buscar = buscar.ToLower();
+                buscar = buscar.Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u");
+
+                members = members.Where(x => x.Name!.ToLower().Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u").Contains(buscar) ||
+                x.LastName!.ToLower().Replace("á", "a").Replace("é", "e").Replace("í", "i").Replace("ó", "o").Replace("ú", "u").Contains(buscar)).ToList();
+            }
+
+
+
             //Crear objeto de tipo lista de mimebros para la vista
             MemberListViewModel viewModel = new MemberListViewModel();
 
@@ -43,7 +58,7 @@ namespace GymManager.Web.Controllers
 
         public async Task<IActionResult> Edit(int memberId)
         {
-            Member member = await _membersAppServices.getMemberAsync(memberId);
+            Member member = await _membersAppServices.GetMemberAsync(memberId);
 
             MemberViewModel miembroTransformado = new MemberViewModel
             {
@@ -65,7 +80,7 @@ namespace GymManager.Web.Controllers
 
         public async Task<IActionResult> Delete(int memberId)
         {
-            await _membersAppServices.deleteMemberAsync(memberId);
+            await _membersAppServices.DeleteMemberAsync(memberId);
             return RedirectToAction("Index");
         }
 
@@ -83,9 +98,10 @@ namespace GymManager.Web.Controllers
                 City = new City
                 {
                     Id = model.CityId
-                }
+                },
+                MembershipType = await _membershipTypeAppService.GetMembershipTypeAsync(1)
             };
-            await _membersAppServices.addMemberAsync(member);
+            await _membersAppServices.AddMemberAsync(member);
             return RedirectToAction("Index");
         }
 
@@ -106,7 +122,7 @@ namespace GymManager.Web.Controllers
                     Id = model.CityId
                 }
             };
-            await _membersAppServices.editMemberAsync(member);
+            await _membersAppServices.EditMemberAsync(member);
             return RedirectToAction("Index");
         }
 

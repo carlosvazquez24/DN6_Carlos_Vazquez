@@ -1,0 +1,64 @@
+﻿
+@model GymManager.Web.Models.MembershipRenewalListModel;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Head {
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.theme.min.css" rel="stylesheet" />
+
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+}
+
+@section HeaderRight{
+
+
+    <form asp-controller="MembershipRenewal" asp-action ="Index" class="d-flex " role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="buscar">
+        <button class="btn btn-outline-success" type="submit" value="buscar">Search</button>
+    </form>
+
+}
+
+<h1 class="mb-3 mt-3">
+    Renew Membership
+</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col"> Membership ID </th>
+            <th scope="col"> Membership Name </th>
+            <th scope="col"> Membership Duration </th>
+            <th scope="col"> Editar </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var member in Model.MembershipRenewalList)
+        {
+            <tr>
+                <th> @member.MemberName </th>
+                <td>@member.MemberLastName </td>
+                <td>@member.MembershipId </td>
+                <td>@member.MembershipName </td>
+                <td>@member.MembershipDuration </td>
+                <td> <a asp-action="Edit" asp-route-memberId="@member.MemberId" class="btn btn-outline-info"> Renew membership </a> </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

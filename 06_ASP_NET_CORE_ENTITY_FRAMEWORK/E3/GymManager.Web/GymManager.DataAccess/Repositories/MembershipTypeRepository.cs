@@ -47,10 +47,6 @@ namespace GymManager.DataAccess.Repositories
             return entity;
         }
 
-
-
-
-
     }
     
 }

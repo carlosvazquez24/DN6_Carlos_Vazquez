@@ -197,6 +197,10 @@
       "PackagePath": "staticwebassets\\Views\\Members\\Create.js"
     },
     {
+      "Id": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E3\\GymManager.Web\\GymManager.Web\\wwwroot\\Views\\MembershipRenewal\\Edit.js",
+      "PackagePath": "staticwebassets\\Views\\MembershipRenewal\\Edit.js"
+    },
+    {
       "Id": "C:\\Users\\carlo\\OneDrive\\Escritorio\\DN6_Carlos_Vazquez\\06_ASP_NET_CORE_ENTITY_FRAMEWORK\\E3\\GymManager.Web\\GymManager.Web\\wwwroot\\Views\\Users\\Create.js",
       "PackagePath": "staticwebassets\\Views\\Users\\Create.js"
     },

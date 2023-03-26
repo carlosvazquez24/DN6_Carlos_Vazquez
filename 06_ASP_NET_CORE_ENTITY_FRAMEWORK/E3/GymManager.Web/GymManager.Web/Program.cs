@@ -1,6 +1,8 @@
+using GymManager.ApplicationServices.EquipmentTypes;
 using GymManager.ApplicationServices.Members;
 using GymManager.ApplicationServices.MembershipsTypes;
 using GymManager.ApplicationServices.Navigation;
+using GymManager.Core.EquipmentTypes;
 using GymManager.Core.Members;
 using GymManager.Core.MembershipsTypes;
 using GymManager.DataAccess;
@@ -21,8 +23,13 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddTransient<IMembersAppServices, MembersAppServices>();
 builder.Services.AddTransient<IMenuAppService, MenuAppService>();
 builder.Services.AddTransient<IMembershipTypeAppService, MembershipTypeAppService>();
+builder.Services.AddTransient<IEquipmentAppServices, EquipmentAppServices>();
+
+
 builder.Services.AddTransient<IRepository<int, Member>, MembersRepository>();
 builder.Services.AddTransient<IRepository<int, MembershipType>, MembershipTypeRepository>();
+builder.Services.AddTransient<IRepository<int, EquipmentType>, EquipmentRepository>();
+
 
 
 builder.Services.AddWkhtmltopdf();

@@ -1,0 +1,3 @@
+﻿(function () {
+    $("#MembershipId").select2();
+}());

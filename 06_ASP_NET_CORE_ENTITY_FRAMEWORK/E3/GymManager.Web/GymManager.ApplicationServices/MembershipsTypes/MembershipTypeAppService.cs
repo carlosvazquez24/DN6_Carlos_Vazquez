@@ -23,28 +23,28 @@ namespace GymManager.ApplicationServices.MembershipsTypes
 
         }
 
-        public async Task<int> addMembershipTypeAsync(MembershipType membership)
+        public async Task<int> AddMembershipTypeAsync(MembershipType membership)
         {
             await _repository.AddAsync(membership);
             return membership.Id;
         }
 
-        public async Task deleteMembershipTypeAsync(int membershipTypeId)
+        public async Task DeleteMembershipTypeAsync(int membershipTypeId)
         {
             await _repository.DeleteAsync(membershipTypeId);
         }
 
-        public async Task editMembershipTypeAsync(MembershipType membership)
+        public async Task EditMembershipTypeAsync(MembershipType membership)
         {
             await _repository.UpdateAsync(membership);
         }
 
-        public async Task<List<MembershipType>> getMembershipsTypesAsync()
+        public async Task<List<MembershipType>> GetAllMembershipsTypesAsync()
         {
             return await _repository.GetAllAsync().ToListAsync();
         }
 
-        public async Task<MembershipType> getMembershipTypeAsync(int membershipId)
+        public async Task<MembershipType> GetMembershipTypeAsync(int membershipId)
         {
             return await _repository.GetAsync(membershipId);
         }

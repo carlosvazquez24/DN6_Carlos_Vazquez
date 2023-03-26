@@ -40,7 +40,7 @@ namespace GymManager.Core.Members
 
         public bool AllowNewsletter { get; set; }
 
-        public MembershipType? MembershipType { get; set; }
+        public MembershipType MembershipType { get; set; }
 
     }
 }

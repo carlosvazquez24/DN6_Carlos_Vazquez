@@ -88,3 +88,33 @@ C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\WebApi.
 C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.pdb
 C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.genruntimeconfig.cache
 C:\Users\carlo\OneDrive\Escritorio\recuperacion gymanager\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\ref\WebApi.StoredProcedures.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\appsettings.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\WebApi.StoredProcedures.exe
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\WebApi.StoredProcedures.deps.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\WebApi.StoredProcedures.runtimeconfig.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\WebApi.StoredProcedures.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\WebApi.StoredProcedures.pdb
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\DataAccess.StoredProcedures.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\bin\Debug\net6.0\DataAccess.StoredProcedures.pdb
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.csproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.AssemblyInfoInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.AssemblyInfo.cs
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\staticwebassets\msbuild.WebApi.StoredProcedures.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApi.StoredProcedures.props
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.StoredProcedures.props
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApi.StoredProcedures.props
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\scopedcss\bundle\WebApi.StoredProcedures.styles.css
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.csproj.CopyComplete
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\refint\WebApi.StoredProcedures.dll
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.pdb
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\WebApi.StoredProcedures.genruntimeconfig.cache
+C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\E3\GymManager.Web\WebApi.StoredProcedures\obj\Debug\net6.0\ref\WebApi.StoredProcedures.dll

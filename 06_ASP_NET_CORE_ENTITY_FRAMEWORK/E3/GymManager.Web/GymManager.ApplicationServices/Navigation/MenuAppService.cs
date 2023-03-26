@@ -143,7 +143,7 @@ namespace GymManager.ApplicationServices.Navigation
                         Name = "MembershipRenewal",
                         DisplayName = "Membership Renewal",
                         Order = 1,
-                        Url = "/Members/Renewal"
+                        Url = "/MembershipRenewal"
                     },
 
                     new UserMenuItem
