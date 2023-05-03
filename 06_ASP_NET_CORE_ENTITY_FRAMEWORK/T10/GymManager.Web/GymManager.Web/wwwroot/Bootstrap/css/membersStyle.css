@@ -1,0 +1,15 @@
+﻿
+.imagenLogo{
+    width: 50px;
+}
+
+.barra {
+    background-color: #E0E0E0;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: black;
+}
+
+.textoBarra{
+    margin-left: 20px;
+
+}
