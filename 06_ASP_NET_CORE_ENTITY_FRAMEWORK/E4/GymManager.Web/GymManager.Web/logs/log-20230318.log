@@ -1,0 +1,431 @@
+2023-03-18 15:15:36.867 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-18 15:15:42.515 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-18 15:15:42.516 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-18 15:15:42.520 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-18 15:15:42.520 -05:00  INF  Hosting environment: Development 
+ 2023-03-18 15:15:42.520 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T6\GymManager.Web\GymManager.Web\ 
+ 2023-03-18 15:16:12.717 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 15:16:14.165 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:16:15.888 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 15:20:56.714 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 15:21:27.018 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 15:21:27.416 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 311500.3847ms 
+ 2023-03-18 15:21:27.467 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:21:27.497 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 15:21:29.784 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 15:21:29.784 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 15:21:29.886 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 317190.1535ms 
+ 2023-03-18 15:21:30.001 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 206.3870ms 
+ 2023-03-18 15:21:30.414 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 630.3741ms 
+ 2023-03-18 15:21:30.771 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-18 15:21:30.792 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 20.4937ms 
+ 2023-03-18 15:22:59.861 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 15:22:59.892 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:22:59.893 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 15:23:26.328 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 15:23:46.625 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 15:23:46.628 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 46734.4265ms 
+ 2023-03-18 15:23:46.628 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:23:46.629 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 15:23:46.646 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 46785.0386ms 
+ 2023-03-18 15:23:46.655 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 15:23:46.655 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 15:23:46.655 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.7796ms 
+ 2023-03-18 15:23:46.666 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.6676ms 
+ 2023-03-18 15:23:53.944 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 15:23:53.946 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:23:53.946 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 15:23:54.311 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 15:23:54.379 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 15:23:54.403 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 456.8951ms 
+ 2023-03-18 15:23:54.404 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:23:54.405 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 15:23:54.424 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 479.7380ms 
+ 2023-03-18 15:23:54.433 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 15:23:54.433 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 15:23:54.433 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.4522ms 
+ 2023-03-18 15:23:54.437 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.8193ms 
+ 2023-03-18 15:23:56.911 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 15:23:56.912 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:23:56.912 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 15:23:57.129 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 15:23:57.197 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 15:23:57.202 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 289.5468ms 
+ 2023-03-18 15:23:57.203 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:23:57.204 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 15:23:57.227 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 316.2714ms 
+ 2023-03-18 15:23:57.235 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 15:23:57.235 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 15:23:57.235 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.5064ms 
+ 2023-03-18 15:23:57.244 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.8770ms 
+ 2023-03-18 15:23:57.833 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 15:23:57.834 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:23:57.835 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 15:23:58.043 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 15:23:58.104 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 15:23:58.107 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 272.3799ms 
+ 2023-03-18 15:23:58.108 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 15:23:58.109 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 15:23:58.147 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 313.3316ms 
+ 2023-03-18 15:23:58.155 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 15:23:58.155 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 15:23:58.155 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.6280ms 
+ 2023-03-18 15:23:58.159 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6564ms 
+ 2023-03-18 17:06:39.015 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-18 17:06:40.645 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-18 17:06:40.646 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-18 17:06:40.654 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-18 17:06:40.654 -05:00  INF  Hosting environment: Development 
+ 2023-03-18 17:06:40.654 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T6\GymManager.Web\GymManager.Web\ 
+ 2023-03-18 17:06:52.215 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 17:06:52.873 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:06:53.976 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 17:06:59.412 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 17:07:13.653 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 17:07:13.927 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 19924.5838ms 
+ 2023-03-18 17:07:13.976 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:07:14.001 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method18(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 17:07:15.286 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 17:07:15.286 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 17:07:15.433 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 23277.2020ms 
+ 2023-03-18 17:07:15.453 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 166.8635ms 
+ 2023-03-18 17:07:15.503 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 217.2175ms 
+ 2023-03-18 17:07:17.010 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-18 17:07:17.104 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 94.0065ms 
+ 2023-03-18 17:26:17.440 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-18 17:26:18.174 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-18 17:26:18.174 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-18 17:26:18.178 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-18 17:26:18.179 -05:00  INF  Hosting environment: Development 
+ 2023-03-18 17:26:18.179 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T6\GymManager.Web\GymManager.Web\ 
+ 2023-03-18 17:26:28.525 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 17:26:29.465 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:26:29.812 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 17:26:33.827 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 17:26:47.152 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 17:26:47.340 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 17501.8018ms 
+ 2023-03-18 17:26:47.351 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:26:47.366 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method18(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 17:26:48.050 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 17:26:48.050 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 17:26:48.071 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5555ms 
+ 2023-03-18 17:26:48.111 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 60.7607ms 
+ 2023-03-18 17:26:48.195 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 19675.8951ms 
+ 2023-03-18 17:26:49.321 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-18 17:26:49.326 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 5.6981ms 
+ 2023-03-18 17:35:40.925 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-18 17:35:41.378 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-18 17:35:41.378 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-18 17:35:41.381 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-18 17:35:41.381 -05:00  INF  Hosting environment: Development 
+ 2023-03-18 17:35:41.381 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T6\GymManager.Web\GymManager.Web\ 
+ 2023-03-18 17:35:43.038 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 17:35:43.166 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:35:43.210 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 17:35:44.978 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 17:35:51.401 -05:00  INF  Executing ViewResult, running view Index. 
+ 2023-03-18 17:35:51.448 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 8228.5871ms 
+ 2023-03-18 17:35:51.453 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:35:51.458 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[GymManager.Core.Member.Member]]', but this ViewDataDictionary instance requires a model item of type 'System.Collections.Generic.List`1[GymManager.Core.Member.Member]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method12(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 17:35:51.698 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 17:35:51.698 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 17:35:51.709 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 8.3401ms 
+ 2023-03-18 17:35:51.724 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 8690.2413ms 
+ 2023-03-18 17:35:51.728 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.0061ms 
+ 2023-03-18 17:35:53.134 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-18 17:35:53.142 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 8.2643ms 
+ 2023-03-18 17:37:44.654 -05:00  INF  User profile is available. Using 'C:\Users\carlo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+ 2023-03-18 17:37:45.138 -05:00  INF  Now listening on: https://localhost:7223 
+ 2023-03-18 17:37:45.138 -05:00  INF  Now listening on: http://localhost:5205 
+ 2023-03-18 17:37:45.142 -05:00  INF  Application started. Press Ctrl+C to shut down. 
+ 2023-03-18 17:37:45.142 -05:00  INF  Hosting environment: Development 
+ 2023-03-18 17:37:45.142 -05:00  INF  Content root path: C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T6\GymManager.Web\GymManager.Web\ 
+ 2023-03-18 17:37:47.193 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/ - - 
+ 2023-03-18 17:37:47.323 -05:00  INF  Executing endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:37:47.361 -05:00  INF  Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller GymManager.Web.Controllers.HomeController (GymManager.Web). 
+ 2023-03-18 17:37:49.297 -05:00  INF  Entity Framework Core 6.0.14 initialized 'GymManagerContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.32-mysql  
+ 2023-03-18 17:37:49.449 -05:00  INF  Executed action GymManager.Web.Controllers.HomeController.Index (GymManager.Web) in 2082.3612ms 
+ 2023-03-18 17:37:49.452 -05:00  INF  Executed endpoint 'GymManager.Web.Controllers.HomeController.Index (GymManager.Web)' 
+ 2023-03-18 17:37:49.456 -05:00  ERR  An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: Cannot create a DbSet for 'Member' because this type is not included in the model for the context.
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IAsyncEnumerable<TEntity>.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at GymManager.ApplicationServices.Members.MembersAppServices.getMembersAsync() in C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T6\GymManager.Web\GymManager.ApplicationServices\Members\MembersAppServices.cs:line 50
+   at GymManager.Web.Controllers.HomeController.Index() in C:\Users\carlo\OneDrive\Escritorio\DN6_Carlos_Vazquez\06_ASP_NET_CORE_ENTITY_FRAMEWORK\T6\GymManager.Web\GymManager.Web\Controllers\HomeController.cs:line 18
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-18 17:37:51.384 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - - 
+ 2023-03-18 17:37:51.385 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - 
+ 2023-03-18 17:37:51.393 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.3185ms 
+ 2023-03-18 17:37:51.393 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/ - - - 500 - text/html;+charset=utf-8 4205.0948ms 
+ 2023-03-18 17:37:51.414 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.8144ms 
+ 2023-03-18 17:37:52.239 -05:00  INF  Request starting HTTP/2 GET https://localhost:7223/favicon.ico - - 
+ 2023-03-18 17:37:52.243 -05:00  INF  Request finished HTTP/2 GET https://localhost:7223/favicon.ico - - - 404 0 - 4.4608ms 
+ 

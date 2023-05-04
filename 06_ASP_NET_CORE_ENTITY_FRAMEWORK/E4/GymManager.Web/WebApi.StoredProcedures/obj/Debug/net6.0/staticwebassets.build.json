@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4cw1VlZvu1OL9uCF4HZT7H+v2qG5T26eMlJnmNJfoTA=",
+  "Source": "WebApi.StoredProcedures",
+  "BasePath": "_content/WebApi.StoredProcedures",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
